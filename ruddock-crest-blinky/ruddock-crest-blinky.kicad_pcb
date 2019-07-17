@@ -734,9 +734,9 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 smd roundrect (at -1 0.5 180) (size 1 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 2 "Net-(BT1-Pad1)"))
-    (pad 2 smd roundrect (at 1 0.5 180) (size 1 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 "Net-(BT1-Pad2)"))
+    (pad 2 smd roundrect (at 1 0.5 180) (size 1 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+      (net 2 "Net-(BT1-Pad1)"))
     (pad MP smd roundrect (at -3.4 -1.75 180) (size 1.6 3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15625))
     (pad MP smd roundrect (at 3.4 -1.75 180) (size 1.6 3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15625))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical.wrl

@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ruddock Crest Blinky"
-Date "2019-07-06"
+Date "2019-07-16"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "B.S. EE, Ruddock, Class of 2020"
@@ -984,24 +984,19 @@ $EndComp
 Text Notes 1700 2950 0    50   ~ 0
 FOR LiPo
 Text Notes 1300 3200 0    50   ~ 0
-CHECK POLARITY
+USES ADAFRUIT PINOUT
 $Comp
 L Transistor_FET:BSS138 Q1
 U 1 1 5D21AC3E
 P 2900 2100
 F 0 "Q1" V 3200 2100 50  0000 C CNN
-F 1 "NMOSFET" V 3300 2100 50  0000 C CNN
+F 1 "DMN2058UW" V 3300 2100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3100 2025 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2900 2100 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN2058UW.pdf" H 2900 2100 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMN2058UW-7/DMN2058UW-7DICT-ND/9089794" V 2900 2100 50  0001 C CNN "Digikey"
 	1    2900 2100
 	0    -1   1    0   
 $EndComp
-Text Notes 2600 2800 0    50   ~ 0
-FIND A MOSFET\nWITH LOW RDSON
-Wire Wire Line
-	1500 2700 1000 2700
-Wire Wire Line
-	1500 2800 1300 2800
 $Comp
 L power:VCC #PWR01
 U 1 1 5D22441F
@@ -1017,8 +1012,6 @@ Text Notes 1500 2100 0    50   ~ 0
 CHECK FOOTPRINT
 Text Notes 2200 1200 0    50   ~ 0
 FIND SWITCH
-Wire Wire Line
-	1000 2700 1000 1500
 Wire Wire Line
 	1000 1500 1300 1500
 Wire Wire Line
@@ -1058,9 +1051,6 @@ F 3 "~" H 2500 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 1500 1800 1500
-Wire Wire Line
-	1300 2200 1300 2800
-Connection ~ 1300 2200
 Wire Wire Line
 	2000 1500 2300 1500
 Wire Wire Line
@@ -1320,4 +1310,13 @@ Wire Wire Line
 	6400 5400 6800 5400
 Text Notes 6000 3800 0    50   ~ 0
 USER
+Wire Wire Line
+	1000 2800 1500 2800
+Wire Wire Line
+	1000 1500 1000 2800
+Wire Wire Line
+	1500 2700 1300 2700
+Wire Wire Line
+	1300 2700 1300 2200
+Connection ~ 1300 2200
 $EndSCHEMATC
