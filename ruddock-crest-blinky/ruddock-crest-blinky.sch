@@ -631,10 +631,10 @@ F 3 "~" H 6800 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R3
+L Device:R_Small_US R10
 U 1 1 5D1F234B
 P 6800 5250
-F 0 "R3" H 6900 5300 50  0000 L CNN
+F 0 "R10" H 6900 5300 50  0000 L CNN
 F 1 "10K" H 6900 5200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5250 50  0001 C CNN
 F 3 "~" H 6800 5250 50  0001 C CNN
@@ -971,16 +971,15 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5D22A8C9
-P 1900 1500
-F 0 "F1" H 1900 1700 50  0000 C CNN
-F 1 "Fuse_Small" H 1900 1600 50  0000 C CNN
-F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 1500 50  0001 C CNN
-F 3 "~" H 1900 1500 50  0001 C CNN
-	1    1900 1500
+P 1800 1500
+F 0 "F1" H 1800 1700 50  0000 C CNN
+F 1 " 0ZCJ0005FF2E " H 1800 1600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1800 1500 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" H 1800 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-1793-1-ND/4156220" H 1800 1500 50  0001 C CNN "Digikey"
+	1    1800 1500
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 1200 0    50   ~ 0
-FIND FUSE
 Text Notes 1400 2700 0    50   ~ 0
 +
 Text Notes 1400 2800 0    50   ~ 0
@@ -997,9 +996,9 @@ F 3 "~" H 2500 1600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 1500 1800 1500
+	1300 1500 1700 1500
 Wire Wire Line
-	2000 1500 2300 1500
+	1900 1500 2300 1500
 Wire Wire Line
 	2700 1600 2900 1600
 Wire Wire Line
@@ -1271,10 +1270,10 @@ NEED FOOTPRINT
 Text Notes 7500 5800 0    50   ~ 0
 MAKE FOOTPRINT
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R2
 U 1 1 5D344CB7
 P 8600 3200
-F 0 "R?" V 8650 3000 50  0000 L CNN
+F 0 "R2" V 8650 3000 50  0000 L CNN
 F 1 "R" V 8550 3050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3200 50  0001 C CNN
 F 3 "~" H 8600 3200 50  0001 C CNN
@@ -1310,10 +1309,10 @@ Wire Wire Line
 Wire Wire Line
 	9600 4100 10000 4100
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R3
 U 1 1 5D39A22A
 P 8900 3300
-F 0 "R?" V 8950 3100 50  0000 L CNN
+F 0 "R3" V 8950 3100 50  0000 L CNN
 F 1 "R" V 8850 3150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3300 50  0001 C CNN
 F 3 "~" H 8900 3300 50  0001 C CNN
@@ -1321,10 +1320,10 @@ F 3 "~" H 8900 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R4
 U 1 1 5D39A425
 P 9200 3400
-F 0 "R?" V 9250 3200 50  0000 L CNN
+F 0 "R4" V 9250 3200 50  0000 L CNN
 F 1 "R" V 9150 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 3400 50  0001 C CNN
 F 3 "~" H 9200 3400 50  0001 C CNN
@@ -1332,10 +1331,10 @@ F 3 "~" H 9200 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R5
 U 1 1 5D39A60C
 P 9500 3500
-F 0 "R?" V 9550 3300 50  0000 L CNN
+F 0 "R5" V 9550 3300 50  0000 L CNN
 F 1 "R" V 9450 3350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 3500 50  0001 C CNN
 F 3 "~" H 9500 3500 50  0001 C CNN
@@ -1343,10 +1342,10 @@ F 3 "~" H 9500 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R6
 U 1 1 5D39A7FA
 P 8600 3800
-F 0 "R?" V 8650 3600 50  0000 L CNN
+F 0 "R6" V 8650 3600 50  0000 L CNN
 F 1 "R" V 8550 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3800 50  0001 C CNN
 F 3 "~" H 8600 3800 50  0001 C CNN
@@ -1354,10 +1353,10 @@ F 3 "~" H 8600 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R7
 U 1 1 5D39AAC2
 P 8900 3900
-F 0 "R?" V 8950 3700 50  0000 L CNN
+F 0 "R7" V 8950 3700 50  0000 L CNN
 F 1 "R" V 8850 3750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3900 50  0001 C CNN
 F 3 "~" H 8900 3900 50  0001 C CNN
@@ -1365,10 +1364,10 @@ F 3 "~" H 8900 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R8
 U 1 1 5D39AC52
 P 9200 4000
-F 0 "R?" V 9250 3800 50  0000 L CNN
+F 0 "R8" V 9250 3800 50  0000 L CNN
 F 1 "R" V 9150 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 4000 50  0001 C CNN
 F 3 "~" H 9200 4000 50  0001 C CNN
@@ -1376,10 +1375,10 @@ F 3 "~" H 9200 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R9
 U 1 1 5D39AE80
 P 9500 4100
-F 0 "R?" V 9550 3900 50  0000 L CNN
+F 0 "R9" V 9550 3900 50  0000 L CNN
 F 1 "R" V 9450 3950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 4100 50  0001 C CNN
 F 3 "~" H 9500 4100 50  0001 C CNN
@@ -1388,4 +1387,6 @@ F 3 "~" H 9500 4100 50  0001 C CNN
 $EndComp
 Text Notes 8400 4300 0    50   ~ 0
 R = 47
+Text Notes 1600 1200 0    50   ~ 0
+50mA HOLD
 $EndSCHEMATC
