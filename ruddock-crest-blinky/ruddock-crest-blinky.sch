@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ruddock Crest Blinky"
-Date "2019-07-16"
+Date "2019-07-21"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "B.S. EE, Ruddock, Class of 2020"
@@ -646,8 +646,8 @@ L Switch:SW_Push SW2
 U 1 1 5D1F3B7C
 P 7850 5400
 F 0 "SW2" H 7850 5700 50  0000 C CNN
-F 1 "SW_USER" H 7850 5600 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" H 7850 5600 50  0001 C CNN
+F 1 "PTS 647 SK38 SMTR2 LFS " H 7850 5600 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 7850 5600 50  0001 C CNN
 F 3 "~" H 7850 5600 50  0001 C CNN
 	1    7850 5400
 	1    0    0    -1  
@@ -692,8 +692,6 @@ F 3 "" H 8100 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 5400 8100 5400
-Text Notes 7100 5950 0    50   ~ 0
-FIND SWITCH
 $Comp
 L 74xx:74HC595 U2
 U 1 1 5D1F6EB5
@@ -965,8 +963,9 @@ U 1 1 5D217E07
 P 1300 1900
 F 0 "BT1" H 1450 2000 50  0000 L CNN
 F 1 "CR2032" H 1450 1900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 1300 1960 50  0001 C CNN
-F 3 "~" V 1300 1960 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1300 1960 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p9.pdf" V 1300 1960 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/keystone-electronics/3034/36-3034-ND/4499289" H 1300 1900 50  0001 C CNN "Digikey"
 	1    1300 1900
 	1    0    0    -1  
 $EndComp
@@ -1010,8 +1009,6 @@ F 3 "" H 2900 1300 50  0001 C CNN
 $EndComp
 Text Notes 1500 2100 0    50   ~ 0
 CHECK FOOTPRINT
-Text Notes 2200 1200 0    50   ~ 0
-FIND SWITCH
 Wire Wire Line
 	1000 1500 1300 1500
 Wire Wire Line
@@ -1043,7 +1040,7 @@ L Switch:SW_SPDT SW1
 U 1 1 5D22562D
 P 2500 1600
 F 0 "SW1" H 2500 1900 50  0000 C CNN
-F 1 "SW_SPDT" H 2500 1800 50  0000 C CNN
+F 1 "JS102011JCQN" H 2500 1800 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 2500 1600 50  0001 C CNN
 F 3 "~" H 2500 1600 50  0001 C CNN
 	1    2500 1600
@@ -1117,7 +1114,7 @@ L Device:C_Small C4
 U 1 1 5D257AE2
 P 2200 4200
 F 0 "C4" H 2300 4250 50  0000 L CNN
-F 1 "0.1uF" H 2300 4150 50  0000 L CNN
+F 1 "1uF" H 2300 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 4200 50  0001 C CNN
 F 3 "~" H 2200 4200 50  0001 C CNN
 	1    2200 4200
@@ -1319,4 +1316,8 @@ Wire Wire Line
 Wire Wire Line
 	1300 2700 1300 2200
 Connection ~ 1300 2200
+Text Notes 2100 1900 0    50   ~ 0
+NEED FOOTPRINT
+Text Notes 7500 5800 0    50   ~ 0
+MAKE FOOTPRINT
 $EndSCHEMATC
