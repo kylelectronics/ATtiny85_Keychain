@@ -926,10 +926,8 @@ F 3 "~" H 1700 2700 50  0001 C CNN
 	1    1700 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 2950 0    50   ~ 0
-FOR LiPo
-Text Notes 1300 3200 0    50   ~ 0
-USES ADAFRUIT PINOUT
+Text Notes 1800 3000 0    50   ~ 0
+USES ADAFRUIT POLARITY
 $Comp
 L Transistor_FET:BSS138 Q1
 U 1 1 5D21AC3E
@@ -954,9 +952,6 @@ F 3 "" H 2900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 1500 1300 1500
-Connection ~ 1300 1500
-Wire Wire Line
 	2700 2200 1300 2200
 $Comp
 L Device:Fuse_Small F1
@@ -970,9 +965,9 @@ F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-179
 	1    1800 1500
 	1    0    0    -1  
 $EndComp
-Text Notes 1400 2700 0    50   ~ 0
-+
 Text Notes 1400 2800 0    50   ~ 0
++
+Text Notes 1400 2700 0    50   ~ 0
 -
 $Comp
 L Switch:SW_SPDT SW1
@@ -985,8 +980,6 @@ F 3 "~" H 2500 1600 50  0001 C CNN
 	1    2500 1600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 1500 1700 1500
 Wire Wire Line
 	1900 1500 2300 1500
 Wire Wire Line
@@ -1013,8 +1006,6 @@ Text Notes 1900 800  0    100  ~ 20
 POWER
 Wire Notes Line
 	500  5300 3800 5300
-Wire Notes Line
-	3800 5300 3800 500 
 $Comp
 L power:VCC #PWR010
 U 1 1 5D256C68
@@ -1382,31 +1373,74 @@ Text Notes 1600 1200 0    50   ~ 0
 Text Notes 9200 4600 0    50   ~ 0
 BLUE\nWURTH 150120BS75000 
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5D35DC20
-P 1300 1600
-F 0 "H1" H 1200 1550 50  0000 R CNN
-F 1 "BAT_POS" H 1200 1650 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 1600 50  0001 C CNN
-F 3 "~" H 1300 1600 50  0001 C CNN
-	1    1300 1600
-	-1   0    0    1   
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5D361DE7
-P 1300 2100
-F 0 "H2" H 1400 2200 50  0000 L CNN
-F 1 "BAT_NEG" H 1400 2100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 2100 50  0001 C CNN
-F 3 "~" H 1300 2100 50  0001 C CNN
-	1    1300 2100
+P 1300 2000
+F 0 "H2" H 1400 2100 50  0000 L CNN
+F 1 "BAT_NEG" H 1400 2000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 2000 50  0001 C CNN
+F 3 "~" H 1300 2000 50  0001 C CNN
+	1    1300 2000
 	1    0    0    -1  
 $EndComp
 Text Notes 1400 2300 0    50   ~ 0
 MAKE BAT PAD FOOTPRINT
-Text Label 1000 1500 0    50   ~ 0
+Text Label 1400 1500 0    50   ~ 0
 BAT+
-Text Label 1800 2200 0    50   ~ 0
+Text Label 1400 2200 0    50   ~ 0
 BAT-
+Text Notes 2200 6700 0    50   ~ 0
+EXPOSED\nCIRC PAD
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D36D0D1
+P 1700 6600
+F 0 "H4" H 1800 6700 50  0000 L CNN
+F 1 "CREST" H 1800 6600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1800 6550 50  0001 L CNN
+F 3 "~" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1700 6700
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D373C5F
+P 1700 6200
+F 0 "H3" H 1800 6300 50  0000 L CNN
+F 1 "KEYHOLE" H 1800 6200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1700 6200 50  0001 C CNN
+F 3 "~" H 1700 6200 50  0001 C CNN
+	1    1700 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 6200 0    50   ~ 0
+MOUNTING
+NoConn ~ 1700 6300
+Text Notes 1700 5800 0    100  ~ 20
+MECHANICAL
+Wire Notes Line
+	3800 500  3800 7800
+Text Notes 2200 6900 0    50   ~ 0
+MAKE FOOTPRINTS
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D35DC20
+P 1300 1700
+F 0 "H1" H 1200 1650 50  0000 R CNN
+F 1 "BAT_POS" H 1200 1750 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 1700 50  0001 C CNN
+F 3 "~" H 1300 1700 50  0001 C CNN
+	1    1300 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 2100 1300 2200
+Wire Wire Line
+	1000 1500 1300 1500
+Wire Wire Line
+	1300 1600 1300 1500
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 1500 1700 1500
 $EndSCHEMATC
