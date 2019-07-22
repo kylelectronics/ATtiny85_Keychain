@@ -693,17 +693,6 @@ $EndComp
 Wire Wire Line
 	8050 5400 8100 5400
 $Comp
-L 74xx:74HC595 U2
-U 1 1 5D1F6EB5
-P 7600 3700
-F 0 "U2" H 7950 4500 50  0000 C CNN
-F 1 "74HC595" H 7950 4400 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7600 3700 50  0001 C CNN
-	1    7600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR013
 U 1 1 5D1F74AB
 P 7600 4400
@@ -728,193 +717,69 @@ $EndComp
 $Comp
 L Device:LED_Small_ALT D1
 U 1 1 5D1F89BA
-P 9200 3200
-F 0 "D1" H 9200 3050 50  0000 C CNN
-F 1 " 150120BS75000 " H 9200 3050 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3200 50  0001 C CNN "Digikey"
-	1    9200 3200
+P 8900 3300
+F 0 "D1" H 8900 3150 50  0000 C CNN
+F 1 " 150120BS75000 " H 8900 3150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8900 3300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 8900 3300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 8900 3300 50  0001 C CNN "Digikey"
+	1    8900 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small_ALT D2
 U 1 1 5D1F90CE
-P 9500 3300
-F 0 "D2" H 9500 3050 50  0000 C CNN
-F 1 " 150120BS75000 " H 9500 3050 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3300 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3300 50  0001 C CNN "Digikey"
-	1    9500 3300
+P 9200 3400
+F 0 "D2" H 9200 3150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9200 3150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3400 50  0001 C CNN "Digikey"
+	1    9200 3400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small_ALT D3
 U 1 1 5D1F987A
-P 9800 3400
-F 0 "D3" H 9800 3050 50  0000 C CNN
-F 1 " 150120BS75000 " H 9800 3050 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 3400 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 3400 50  0001 C CNN "Digikey"
-	1    9800 3400
+P 9500 3500
+F 0 "D3" H 9500 3150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9500 3150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3500 50  0001 C CNN "Digikey"
+	1    9500 3500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small_ALT D4
 U 1 1 5D1F9CAF
-P 10100 3500
-F 0 "D4" H 10100 3050 50  0000 C CNN
-F 1 " 150120BS75000 " H 10100 3050 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10100 3500 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10100 3500 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10100 3500 50  0001 C CNN "Digikey"
-	1    10100 3500
+P 9800 3600
+F 0 "D4" H 9800 3150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9800 3150 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 3600 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 3600 50  0001 C CNN "Digikey"
+	1    9800 3600
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:LED_Small_ALT D5
-U 1 1 5D1FA165
-P 9200 3800
-F 0 "D5" H 9200 4250 50  0000 C CNN
-F 1 " 150120BS75000 " H 9200 4350 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3800 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3800 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3800 50  0001 C CNN "Digikey"
-	1    9200 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small_ALT D6
-U 1 1 5D1FA68B
-P 9500 3900
-F 0 "D6" H 9500 4250 50  0000 C CNN
-F 1 " 150120BS75000 " H 9500 4350 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3900 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3900 50  0001 C CNN "Digikey"
-	1    9500 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small_ALT D7
-U 1 1 5D1FAB62
-P 9800 4000
-F 0 "D7" H 9800 4250 50  0000 C CNN
-F 1 " 150120BS75000 " H 9800 4350 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 4000 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 4000 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 4000 50  0001 C CNN "Digikey"
-	1    9800 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED_Small_ALT D8
-U 1 1 5D1FB03E
-P 10100 4100
-F 0 "D8" H 10100 4250 50  0000 C CNN
-F 1 " 150120BS75000 " H 10100 4350 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10100 4100 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10100 4100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10100 4100 50  0001 C CNN "Digikey"
-	1    10100 4100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8500 3800 8400 3800
-Wire Wire Line
-	8400 3800 8400 3700
-Wire Wire Line
-	8400 3700 8000 3700
-Wire Wire Line
-	8300 3900 8300 3800
-Wire Wire Line
-	8300 3800 8000 3800
-Wire Wire Line
-	8200 4000 8200 3900
-Wire Wire Line
-	8200 3900 8000 3900
-Wire Wire Line
-	8000 4000 8100 4000
-Wire Wire Line
-	8100 4000 8100 4100
-Wire Wire Line
-	8000 3600 8400 3600
-Wire Wire Line
-	8400 3600 8400 3500
-Wire Wire Line
-	8300 3400 8300 3500
-Wire Wire Line
-	8300 3500 8000 3500
-Wire Wire Line
-	8000 3400 8200 3400
-Wire Wire Line
-	8200 3400 8200 3300
-Wire Wire Line
-	8500 3200 8100 3200
-Wire Wire Line
-	8100 3200 8100 3300
-Wire Wire Line
-	8100 3300 8000 3300
 Text Notes 7300 4800 0    50   ~ 0
 CHECK FOOTPRINTS
-$Comp
-L power:GND #PWR011
-U 1 1 5D20AAF4
-P 10300 4100
-F 0 "#PWR011" H 10300 3850 50  0001 C CNN
-F 1 "GND" H 10350 3900 50  0000 C CNN
-F 2 "" H 10300 4100 50  0001 C CNN
-F 3 "" H 10300 4100 50  0001 C CNN
-	1    10300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5D20AEF1
-P 10300 3500
-F 0 "#PWR09" H 10300 3250 50  0001 C CNN
-F 1 "GND" H 10350 3300 50  0000 C CNN
-F 2 "" H 10300 3500 50  0001 C CNN
-F 3 "" H 10300 3500 50  0001 C CNN
-	1    10300 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10300 3500 10200 3500
+	10000 3600 9900 3600
 Wire Wire Line
-	9300 3200 10300 3200
+	9000 3300 10000 3300
 Wire Wire Line
-	10300 3200 10300 3300
-Connection ~ 10300 3500
+	10000 3300 10000 3400
 Wire Wire Line
-	9600 3300 10300 3300
-Connection ~ 10300 3300
+	9300 3400 10000 3400
+Connection ~ 10000 3400
 Wire Wire Line
-	10300 3300 10300 3400
+	10000 3400 10000 3500
 Wire Wire Line
-	9900 3400 10300 3400
-Connection ~ 10300 3400
+	9600 3500 10000 3500
+Connection ~ 10000 3500
 Wire Wire Line
-	10300 3400 10300 3500
-Wire Wire Line
-	10200 4100 10300 4100
-Wire Wire Line
-	9300 3800 10300 3800
-Wire Wire Line
-	10300 3800 10300 3900
-Connection ~ 10300 4100
-Wire Wire Line
-	9600 3900 10300 3900
-Connection ~ 10300 3900
-Wire Wire Line
-	10300 3900 10300 4000
-Wire Wire Line
-	9900 4000 10300 4000
-Connection ~ 10300 4000
-Wire Wire Line
-	10300 4000 10300 4100
+	10000 3500 10000 3600
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5D21976E
@@ -1194,20 +1059,12 @@ Wire Wire Line
 	5700 3600 7000 3600
 Wire Wire Line
 	5700 3900 6300 3900
-Text Notes 6000 3400 0    50   ~ 0
-~OE
-Text Notes 6000 3500 0    50   ~ 0
-RCLK
-Text Notes 6000 3600 0    50   ~ 0
-SRCLK
 Text Notes 5700 3600 0    50   ~ 0
 SCK
 Text Notes 5700 3500 0    50   ~ 0
 MISO
 Text Notes 5700 3700 0    50   ~ 0
 MOSI
-Text Notes 6000 3700 0    50   ~ 0
-SER
 Wire Wire Line
 	7200 3600 7100 3600
 Wire Wire Line
@@ -1235,8 +1092,6 @@ Wire Wire Line
 	6400 3800 6400 5400
 Wire Wire Line
 	6400 5400 6800 5400
-Text Notes 6000 3800 0    50   ~ 0
-USER
 Wire Wire Line
 	1000 2800 1500 2800
 Wire Wire Line
@@ -1253,124 +1108,58 @@ MAKE FOOTPRINT
 $Comp
 L Device:R_Small_US R2
 U 1 1 5D344CB7
-P 8600 3200
-F 0 "R2" V 8650 3000 50  0000 L CNN
-F 1 "R" V 8550 3050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3200 50  0001 C CNN
-F 3 "~" H 8600 3200 50  0001 C CNN
-	1    8600 3200
+P 8300 3300
+F 0 "R2" V 8350 3100 50  0000 L CNN
+F 1 "R" V 8250 3150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 3300 50  0001 C CNN
+F 3 "~" H 8300 3300 50  0001 C CNN
+	1    8300 3300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8700 3200 9100 3200
+	8400 3300 8800 3300
 Wire Wire Line
-	8200 3300 8800 3300
+	8700 3400 9100 3400
 Wire Wire Line
-	8300 3400 9100 3400
+	9000 3500 9400 3500
 Wire Wire Line
-	8400 3500 9400 3500
-Wire Wire Line
-	9000 3300 9400 3300
-Wire Wire Line
-	9300 3400 9700 3400
-Wire Wire Line
-	9600 3500 10000 3500
-Wire Wire Line
-	8300 3900 8800 3900
-Wire Wire Line
-	8200 4000 9100 4000
-Wire Wire Line
-	8100 4100 9400 4100
-Wire Wire Line
-	8700 3800 9100 3800
-Wire Wire Line
-	9000 3900 9400 3900
-Wire Wire Line
-	9300 4000 9700 4000
-Wire Wire Line
-	9600 4100 10000 4100
+	9300 3600 9700 3600
 $Comp
 L Device:R_Small_US R3
 U 1 1 5D39A22A
-P 8900 3300
-F 0 "R3" V 8950 3100 50  0000 L CNN
-F 1 "R" V 8850 3150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3300 50  0001 C CNN
-F 3 "~" H 8900 3300 50  0001 C CNN
-	1    8900 3300
+P 8600 3400
+F 0 "R3" V 8650 3200 50  0000 L CNN
+F 1 "R" V 8550 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3400 50  0001 C CNN
+F 3 "~" H 8600 3400 50  0001 C CNN
+	1    8600 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R4
 U 1 1 5D39A425
-P 9200 3400
-F 0 "R4" V 9250 3200 50  0000 L CNN
-F 1 "R" V 9150 3250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 3400 50  0001 C CNN
-F 3 "~" H 9200 3400 50  0001 C CNN
-	1    9200 3400
+P 8900 3500
+F 0 "R4" V 8950 3300 50  0000 L CNN
+F 1 "R" V 8850 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3500 50  0001 C CNN
+F 3 "~" H 8900 3500 50  0001 C CNN
+	1    8900 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R5
 U 1 1 5D39A60C
-P 9500 3500
-F 0 "R5" V 9550 3300 50  0000 L CNN
-F 1 "R" V 9450 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 3500 50  0001 C CNN
-F 3 "~" H 9500 3500 50  0001 C CNN
-	1    9500 3500
+P 9200 3600
+F 0 "R5" V 9250 3400 50  0000 L CNN
+F 1 "R" V 9150 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 3600 50  0001 C CNN
+F 3 "~" H 9200 3600 50  0001 C CNN
+	1    9200 3600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R_Small_US R6
-U 1 1 5D39A7FA
-P 8600 3800
-F 0 "R6" V 8650 3600 50  0000 L CNN
-F 1 "R" V 8550 3650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3800 50  0001 C CNN
-F 3 "~" H 8600 3800 50  0001 C CNN
-	1    8600 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R7
-U 1 1 5D39AAC2
-P 8900 3900
-F 0 "R7" V 8950 3700 50  0000 L CNN
-F 1 "R" V 8850 3750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3900 50  0001 C CNN
-F 3 "~" H 8900 3900 50  0001 C CNN
-	1    8900 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R8
-U 1 1 5D39AC52
-P 9200 4000
-F 0 "R8" V 9250 3800 50  0000 L CNN
-F 1 "R" V 9150 3850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 4000 50  0001 C CNN
-F 3 "~" H 9200 4000 50  0001 C CNN
-	1    9200 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R9
-U 1 1 5D39AE80
-P 9500 4100
-F 0 "R9" V 9550 3900 50  0000 L CNN
-F 1 "R" V 9450 3950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 4100 50  0001 C CNN
-F 3 "~" H 9500 4100 50  0001 C CNN
-	1    9500 4100
-	0    -1   -1   0   
-$EndComp
-Text Notes 8400 4400 0    50   ~ 0
-COMPUTE R\nFOR DESIRED\nLED CURRENT
 Text Notes 1600 1200 0    50   ~ 0
 1206 PTC\n50mA HOLD
-Text Notes 9200 4600 0    50   ~ 0
+Text Notes 9000 4400 0    50   ~ 0
 BLUE\nWURTH 150120BS75000 
 $Comp
 L Mechanical:MountingHole_Pad H2
@@ -1443,4 +1232,183 @@ Wire Wire Line
 Connection ~ 1300 1500
 Wire Wire Line
 	1300 1500 1700 1500
+Text Label 6000 3400 0    50   ~ 0
+~OE
+Text Label 6000 3500 0    50   ~ 0
+RCLK
+Text Label 6000 3600 0    50   ~ 0
+SRCLK
+Text Label 6000 3700 0    50   ~ 0
+SER
+Text Label 6000 3800 0    50   ~ 0
+USER
+Text Label 6000 3900 0    50   ~ 0
+RESET
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5D1F6EB5
+P 7600 3700
+F 0 "U2" H 7950 4500 50  0000 C CNN
+F 1 "74HC595" H 7950 4400 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 8200 4300 0    50   ~ 0
+COMPUTE R\nFOR DESIRED\nLED CURRENT
+$Comp
+L Device:R_Small_US R9
+U 1 1 5D39AE80
+P 9200 4000
+F 0 "R9" V 9250 3800 50  0000 L CNN
+F 1 "R" V 9150 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 4000 50  0001 C CNN
+F 3 "~" H 9200 4000 50  0001 C CNN
+	1    9200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 5D39AC52
+P 8900 3900
+F 0 "R8" V 8950 3700 50  0000 L CNN
+F 1 "R" V 8850 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3900 50  0001 C CNN
+F 3 "~" H 8900 3900 50  0001 C CNN
+	1    8900 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5D39AAC2
+P 8600 3800
+F 0 "R7" V 8650 3600 50  0000 L CNN
+F 1 "R" V 8550 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 3800 50  0001 C CNN
+F 3 "~" H 8600 3800 50  0001 C CNN
+	1    8600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 5D39A7FA
+P 8300 3700
+F 0 "R6" V 8350 3500 50  0000 L CNN
+F 1 "R" V 8250 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 3700 50  0001 C CNN
+F 3 "~" H 8300 3700 50  0001 C CNN
+	1    8300 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 4000 9700 4000
+Wire Wire Line
+	9000 3900 9400 3900
+Wire Wire Line
+	8700 3800 9100 3800
+Wire Wire Line
+	8400 3700 8800 3700
+Wire Wire Line
+	10000 3900 10000 4000
+Connection ~ 10000 3900
+Wire Wire Line
+	9600 3900 10000 3900
+Wire Wire Line
+	10000 3800 10000 3900
+Connection ~ 10000 3800
+Wire Wire Line
+	9300 3800 10000 3800
+Connection ~ 10000 4000
+Wire Wire Line
+	10000 3700 10000 3800
+Wire Wire Line
+	9000 3700 10000 3700
+Wire Wire Line
+	9900 4000 10000 4000
+$Comp
+L power:GND #PWR011
+U 1 1 5D20AAF4
+P 10000 4000
+F 0 "#PWR011" H 10000 3750 50  0001 C CNN
+F 1 "GND" H 10050 3800 50  0000 C CNN
+F 2 "" H 10000 4000 50  0001 C CNN
+F 3 "" H 10000 4000 50  0001 C CNN
+	1    10000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D8
+U 1 1 5D1FB03E
+P 9800 4000
+F 0 "D8" H 9800 4150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9800 4250 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 4000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 4000 50  0001 C CNN "Digikey"
+	1    9800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D7
+U 1 1 5D1FAB62
+P 9500 3900
+F 0 "D7" H 9500 4150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9500 4250 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3900 50  0001 C CNN "Digikey"
+	1    9500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D6
+U 1 1 5D1FA68B
+P 9200 3800
+F 0 "D6" H 9200 4150 50  0000 C CNN
+F 1 " 150120BS75000 " H 9200 4250 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3800 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3800 50  0001 C CNN "Digikey"
+	1    9200 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small_ALT D5
+U 1 1 5D1FA165
+P 8900 3700
+F 0 "D5" H 8900 4150 50  0000 C CNN
+F 1 " 150120BS75000 " H 8900 4250 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8900 3700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 8900 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 8900 3700 50  0001 C CNN "Digikey"
+	1    8900 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3700 8200 3700
+Wire Wire Line
+	8000 4000 9100 4000
+Wire Wire Line
+	8000 3900 8800 3900
+Wire Wire Line
+	8000 3800 8500 3800
+Wire Wire Line
+	8000 3600 9100 3600
+Wire Wire Line
+	8000 3500 8800 3500
+Wire Wire Line
+	8000 3400 8500 3400
+Wire Wire Line
+	8000 3300 8200 3300
+Wire Wire Line
+	10000 3600 10000 3700
+Connection ~ 10000 3600
+Connection ~ 10000 3700
+Text Notes 4600 6600 0    50   ~ 10
+PACKAGES
+Text Notes 4600 7000 0    50   ~ 0
+RES, CAP\nLED\nFUSE\nMOSFET
+Text Notes 5200 7000 0    50   ~ 0
+0805\n1206\n1206\nSC-70
 $EndSCHEMATC
