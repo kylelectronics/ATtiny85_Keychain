@@ -729,10 +729,11 @@ $Comp
 L Device:LED_Small_ALT D1
 U 1 1 5D1F89BA
 P 9200 3200
-F 0 "D1" H 9200 2950 50  0000 C CNN
-F 1 "BLUE" H 9200 3050 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9200 3200 50  0001 C CNN
-F 3 "~" V 9200 3200 50  0001 C CNN
+F 0 "D1" H 9200 3050 50  0000 C CNN
+F 1 " 150120BS75000 " H 9200 3050 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3200 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3200 50  0001 C CNN "Digikey"
 	1    9200 3200
 	-1   0    0    1   
 $EndComp
@@ -740,10 +741,11 @@ $Comp
 L Device:LED_Small_ALT D2
 U 1 1 5D1F90CE
 P 9500 3300
-F 0 "D2" H 9500 2950 50  0000 C CNN
-F 1 "BLUE" H 9500 3050 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9500 3300 50  0001 C CNN
-F 3 "~" V 9500 3300 50  0001 C CNN
+F 0 "D2" H 9500 3050 50  0000 C CNN
+F 1 " 150120BS75000 " H 9500 3050 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3300 50  0001 C CNN "Digikey"
 	1    9500 3300
 	-1   0    0    1   
 $EndComp
@@ -751,10 +753,11 @@ $Comp
 L Device:LED_Small_ALT D3
 U 1 1 5D1F987A
 P 9800 3400
-F 0 "D3" H 9800 2950 50  0000 C CNN
-F 1 "BLUE" H 9800 3050 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9800 3400 50  0001 C CNN
-F 3 "~" V 9800 3400 50  0001 C CNN
+F 0 "D3" H 9800 3050 50  0000 C CNN
+F 1 " 150120BS75000 " H 9800 3050 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 3400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 3400 50  0001 C CNN "Digikey"
 	1    9800 3400
 	-1   0    0    1   
 $EndComp
@@ -762,10 +765,11 @@ $Comp
 L Device:LED_Small_ALT D4
 U 1 1 5D1F9CAF
 P 10100 3500
-F 0 "D4" H 10100 2950 50  0000 C CNN
-F 1 "BLUE" H 10100 3050 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10100 3500 50  0001 C CNN
-F 3 "~" V 10100 3500 50  0001 C CNN
+F 0 "D4" H 10100 3050 50  0000 C CNN
+F 1 " 150120BS75000 " H 10100 3050 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10100 3500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10100 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10100 3500 50  0001 C CNN "Digikey"
 	1    10100 3500
 	-1   0    0    1   
 $EndComp
@@ -774,9 +778,10 @@ L Device:LED_Small_ALT D5
 U 1 1 5D1FA165
 P 9200 3800
 F 0 "D5" H 9200 4250 50  0000 C CNN
-F 1 "BLUE" H 9200 4350 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9200 3800 50  0001 C CNN
-F 3 "~" V 9200 3800 50  0001 C CNN
+F 1 " 150120BS75000 " H 9200 4350 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9200 3800 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9200 3800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9200 3800 50  0001 C CNN "Digikey"
 	1    9200 3800
 	-1   0    0    1   
 $EndComp
@@ -785,9 +790,10 @@ L Device:LED_Small_ALT D6
 U 1 1 5D1FA68B
 P 9500 3900
 F 0 "D6" H 9500 4250 50  0000 C CNN
-F 1 "BLUE" H 9500 4350 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9500 3900 50  0001 C CNN
-F 3 "~" V 9500 3900 50  0001 C CNN
+F 1 " 150120BS75000 " H 9500 4350 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9500 3900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9500 3900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9500 3900 50  0001 C CNN "Digikey"
 	1    9500 3900
 	-1   0    0    1   
 $EndComp
@@ -796,9 +802,10 @@ L Device:LED_Small_ALT D7
 U 1 1 5D1FAB62
 P 9800 4000
 F 0 "D7" H 9800 4250 50  0000 C CNN
-F 1 "BLUE" H 9800 4350 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9800 4000 50  0001 C CNN
-F 3 "~" V 9800 4000 50  0001 C CNN
+F 1 " 150120BS75000 " H 9800 4350 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9800 4000 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9800 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9800 4000 50  0001 C CNN "Digikey"
 	1    9800 4000
 	-1   0    0    1   
 $EndComp
@@ -807,9 +814,10 @@ L Device:LED_Small_ALT D8
 U 1 1 5D1FB03E
 P 10100 4100
 F 0 "D8" H 10100 4250 50  0000 C CNN
-F 1 "BLUE" H 10100 4350 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10100 4100 50  0001 C CNN
-F 3 "~" V 10100 4100 50  0001 C CNN
+F 1 " 150120BS75000 " H 10100 4350 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10100 4100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10100 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10100 4100 50  0001 C CNN "Digikey"
 	1    10100 4100
 	-1   0    0    1   
 $EndComp
@@ -849,7 +857,7 @@ Wire Wire Line
 	8100 3200 8100 3300
 Wire Wire Line
 	8100 3300 8000 3300
-Text Notes 8100 4700 0    50   ~ 0
+Text Notes 7300 4800 0    50   ~ 0
 CHECK FOOTPRINTS
 $Comp
 L power:GND #PWR011
@@ -908,18 +916,6 @@ Connection ~ 10300 4000
 Wire Wire Line
 	10300 4000 10300 4100
 $Comp
-L Device:Battery_Cell BT1
-U 1 1 5D217E07
-P 1300 1900
-F 0 "BT1" H 1450 2000 50  0000 L CNN
-F 1 "CR2032" H 1450 1900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1300 1960 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p9.pdf" V 1300 1960 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/keystone-electronics/3034/36-3034-ND/4499289" H 1300 1900 50  0001 C CNN "Digikey"
-	1    1300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5D21976E
 P 1700 2700
@@ -957,17 +953,11 @@ F 3 "" H 2900 1300 50  0001 C CNN
 	1    2900 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 1500 2100 0    50   ~ 0
-CHECK FOOTPRINT
 Wire Wire Line
 	1000 1500 1300 1500
-Wire Wire Line
-	1300 1700 1300 1500
 Connection ~ 1300 1500
 Wire Wire Line
 	2700 2200 1300 2200
-Wire Wire Line
-	1300 2200 1300 2000
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5D22A8C9
@@ -1140,7 +1130,7 @@ Wire Wire Line
 Connection ~ 5100 2600
 Wire Wire Line
 	5100 2600 5100 3100
-Text Notes 4800 2000 0    100  ~ 20
+Text Notes 4900 2000 0    100  ~ 20
 MICU
 Text Notes 8600 2000 0    100  ~ 20
 OUTPUT
@@ -1385,8 +1375,38 @@ F 3 "~" H 9500 4100 50  0001 C CNN
 	1    9500 4100
 	0    -1   -1   0   
 $EndComp
-Text Notes 8400 4300 0    50   ~ 0
-R = 47
+Text Notes 8400 4400 0    50   ~ 0
+COMPUTE R\nFOR DESIRED\nLED CURRENT
 Text Notes 1600 1200 0    50   ~ 0
-50mA HOLD
+1206 PTC\n50mA HOLD
+Text Notes 9200 4600 0    50   ~ 0
+BLUE\nWURTH 150120BS75000 
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D35DC20
+P 1300 1600
+F 0 "H1" H 1200 1550 50  0000 R CNN
+F 1 "BAT_POS" H 1200 1650 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 1600 50  0001 C CNN
+F 3 "~" H 1300 1600 50  0001 C CNN
+	1    1300 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D361DE7
+P 1300 2100
+F 0 "H2" H 1400 2200 50  0000 L CNN
+F 1 "BAT_NEG" H 1400 2100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1300 2100 50  0001 C CNN
+F 3 "~" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 2300 0    50   ~ 0
+MAKE BAT PAD FOOTPRINT
+Text Label 1000 1500 0    50   ~ 0
+BAT+
+Text Label 1800 2200 0    50   ~ 0
+BAT-
 $EndSCHEMATC
