@@ -798,10 +798,10 @@ L Transistor_FET:BSS138 Q1
 U 1 1 5D21AC3E
 P 2900 2100
 F 0 "Q1" V 3200 2100 50  0000 C CNN
-F 1 "DMN2058UW" V 3300 2100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3100 2025 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN2058UW.pdf" H 2900 2100 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMN2058UW-7/DMN2058UW-7DICT-ND/9089794" V 2900 2100 50  0001 C CNN "Digikey"
+F 1 " IRFML8244" V 3300 2100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3100 2025 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irfml8244pbf.pdf?fileId=5546d462533600a40153562817c91fc0" H 2900 2100 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFML8244TRPBF/IRFML8244TRPBFCT-ND/2538166" V 2900 2100 50  0001 C CNN "Digikey"
 	1    2900 2100
 	0    -1   1    0   
 $EndComp
@@ -1410,5 +1410,7 @@ PACKAGES
 Text Notes 4600 7000 0    50   ~ 0
 RES, CAP\nLED\nFUSE\nMOSFET
 Text Notes 5200 7000 0    50   ~ 0
-0805\n1206\n1206\nSC-70
+0805\n1206\n1206\nSOT-23
+Text Notes 2600 2800 0    50   ~ 0
+PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
 $EndSCHEMATC
