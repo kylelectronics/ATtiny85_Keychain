@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ruddock Crest Blinky"
-Date "2019-07-29"
+Date "2019-08-04"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "Virtutis mammilas exsugimus"
@@ -767,8 +767,6 @@ F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFML8244TR
 	1    2900 2400
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2700 2500 1300 2500
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5D22A8C9
@@ -862,7 +860,7 @@ F 1 "0.1uF" V 8050 2500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 2600 50  0001 C CNN
 F 3 "~" H 7900 2600 50  0001 C CNN
 	1    7900 2600
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -925,17 +923,6 @@ Wire Wire Line
 	6300 3900 6300 3200
 Wire Wire Line
 	6300 2900 6300 3000
-$Comp
-L power:VCC #PWR08
-U 1 1 5D236F5D
-P 7100 3200
-F 0 "#PWR08" H 7100 3050 50  0001 C CNN
-F 1 "VCC" H 7150 3400 50  0000 C CNN
-F 2 "" H 7100 3200 50  0001 C CNN
-F 3 "" H 7100 3200 50  0001 C CNN
-	1    7100 3200
-	1    0    0    -1  
-$EndComp
 Text Notes 7700 4400 0    50   ~ 0
 SOIC-14
 NoConn ~ 2300 1900
@@ -999,9 +986,6 @@ Wire Wire Line
 	1100 1700 1100 3100
 Wire Wire Line
 	1500 3000 1300 3000
-Wire Wire Line
-	1300 3000 1300 2500
-Connection ~ 1300 2500
 Text Notes 2100 2100 0    50   ~ 0
 NEED FOOTPRINT
 Text Notes 7500 5800 0    50   ~ 0
@@ -1062,8 +1046,6 @@ Text Notes 1600 1400 0    50   ~ 0
 1206 PTC\n50mA HOLD
 Text Notes 9200 4400 0    50   ~ 0
 BLUE\nWURTH 150120BS75000 
-Text Notes 1400 2600 0    50   ~ 0
-MAKE BAT PAD FOOTPRINT
 Text Label 1400 1700 0    50   ~ 0
 BAT+
 Text Label 1400 2500 0    50   ~ 0
@@ -1102,19 +1084,6 @@ Wire Notes Line
 	3800 500  3800 7800
 Text Notes 2200 7200 0    50   ~ 0
 MAKE FOOTPRINTS
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5D35DC20
-P 900 1700
-F 0 "H1" V 750 1900 50  0000 R CNN
-F 1 "BAT_POS" V 650 1900 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 900 1700 50  0001 C CNN
-F 3 "~" H 900 1700 50  0001 C CNN
-	1    900  1700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1300 2300 1300 2500
 Wire Wire Line
 	1100 1700 1300 1700
 Wire Wire Line
@@ -1303,17 +1272,12 @@ Text Notes 5200 7100 0    50   ~ 0
 0805\n1206\n1206\nSOT-23\nSOT-89
 Text Notes 2600 3100 0    50   ~ 0
 PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
-Wire Wire Line
-	1000 1700 1100 1700
-Connection ~ 1100 1700
-Wire Wire Line
-	1000 2500 1300 2500
 $Comp
 L Device:Battery BT1
 U 1 1 5D3752CC
 P 1300 2100
 F 0 "BT1" H 1450 2150 50  0000 L CNN
-F 1 "1061" H 1450 2050 50  0000 L CNN
+F 1 "3024" H 1450 2050 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1300 2160 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p3.pdf" V 1300 2160 50  0001 C CNN
 	1    1300 2100
@@ -1387,19 +1351,6 @@ Wire Wire Line
 	2900 1700 2900 1800
 Text Notes 1300 5400 0    50   ~ 0
 Needed because of ATtiny max voltage
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5D3EA382
-P 900 2500
-F 0 "H2" V 750 2700 50  0000 R CNN
-F 1 "BAT_NEG" V 650 2700 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 900 2500 50  0001 C CNN
-F 3 "~" H 900 2500 50  0001 C CNN
-	1    900  2500
-	0    -1   -1   0   
-$EndComp
-Text Notes 1400 2400 0    50   ~ 0
-MAKE FOOTPRINT FOR 2X HOLDER
 $Comp
 L power:+BATT #PWR01
 U 1 1 5D397CC5
@@ -1537,4 +1488,22 @@ Wire Wire Line
 	6900 4400 6900 4200
 Wire Wire Line
 	5100 4400 5100 4300
+$Comp
+L power:VDD #PWR0101
+U 1 1 5D674146
+P 7100 3200
+F 0 "#PWR0101" H 7100 3050 50  0001 C CNN
+F 1 "VDD" H 7150 3400 50  0000 C CNN
+F 2 "" H 7100 3200 50  0001 C CNN
+F 3 "" H 7100 3200 50  0001 C CNN
+	1    7100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2300 1300 2500
+Wire Wire Line
+	1300 3000 1300 2500
+Connection ~ 1300 2500
+Wire Wire Line
+	2700 2500 1300 2500
 $EndSCHEMATC
