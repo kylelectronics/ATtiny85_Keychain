@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ruddock Crest Blinky"
-Date "2019-08-04"
+Date "2019-08-06"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "Virtutis mammilas exsugimus"
@@ -585,10 +585,10 @@ FC 4F 98 56 0A 0A 09 1F 31 D0 67 CD EC 61 51 03 3C F8 02 E1 2F A7 E3 0E 5D 79 26
 EndData
 $EndBitmap
 $Comp
-L power:GND #PWR012
+L power:GND #PWR010
 U 1 1 5D1EF5A5
 P 5100 4400
-F 0 "#PWR012" H 5100 4150 50  0001 C CNN
+F 0 "#PWR010" H 5100 4150 50  0001 C CNN
 F 1 "GND" H 5150 4200 50  0000 C CNN
 F 2 "" H 5100 4400 50  0001 C CNN
 F 3 "" H 5100 4400 50  0001 C CNN
@@ -609,10 +609,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C3
 U 1 1 5D1F1F43
 P 6800 5600
-F 0 "C6" H 6900 5650 50  0000 L CNN
+F 0 "C3" H 6900 5650 50  0000 L CNN
 F 1 "0.1uF" H 6900 5550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5600 50  0001 C CNN
 F 3 "~" H 6800 5600 50  0001 C CNN
@@ -635,17 +635,17 @@ L Switch:SW_Push SW2
 U 1 1 5D1F3B7C
 P 7850 5400
 F 0 "SW2" H 7850 5700 50  0000 C CNN
-F 1 "PTS 647 SK38 SMTR2 LFS " H 7850 5600 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 7850 5600 50  0001 C CNN
+F 1 "PTS526 SK15 SMTR2 LFS " H 7850 5600 50  0000 C CNN
+F 2 "ruddock-crest-blinky:SW_SPST_PTS526" H 7850 5600 50  0001 C CNN
 F 3 "~" H 7850 5600 50  0001 C CNN
 	1    7850 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L power:GND #PWR015
 U 1 1 5D1F5466
 P 6800 5800
-F 0 "#PWR018" H 6800 5550 50  0001 C CNN
+F 0 "#PWR015" H 6800 5550 50  0001 C CNN
 F 1 "GND" H 6850 5600 50  0000 C CNN
 F 2 "" H 6800 5800 50  0001 C CNN
 F 3 "" H 6800 5800 50  0001 C CNN
@@ -653,10 +653,10 @@ F 3 "" H 6800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L power:GND #PWR014
 U 1 1 5D1F612D
 P 8100 5400
-F 0 "#PWR017" H 8100 5150 50  0001 C CNN
+F 0 "#PWR014" H 8100 5150 50  0001 C CNN
 F 1 "GND" H 8150 5200 50  0000 C CNN
 F 2 "" H 8100 5400 50  0001 C CNN
 F 3 "" H 8100 5400 50  0001 C CNN
@@ -666,10 +666,10 @@ $EndComp
 Wire Wire Line
 	8050 5400 8100 5400
 $Comp
-L power:GND #PWR014
+L power:GND #PWR012
 U 1 1 5D1F74AB
 P 7600 4400
-F 0 "#PWR014" H 7600 4150 50  0001 C CNN
+F 0 "#PWR012" H 7600 4150 50  0001 C CNN
 F 1 "GND" H 7650 4200 50  0000 C CNN
 F 2 "" H 7600 4400 50  0001 C CNN
 F 3 "" H 7600 4400 50  0001 C CNN
@@ -743,28 +743,15 @@ Connection ~ 10200 3500
 Wire Wire Line
 	10200 3500 10200 3600
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5D21976E
-P 1700 3000
-F 0 "J1" H 1800 3000 50  0000 L CNN
-F 1 "JST PH" H 1800 2900 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 1700 3000 50  0001 C CNN
-F 3 "~" H 1700 3000 50  0001 C CNN
-	1    1700 3000
-	1    0    0    -1  
-$EndComp
-Text Notes 1800 3300 0    50   ~ 0
-USES ADAFRUIT POLARITY
-$Comp
 L Transistor_FET:BSS138 Q1
 U 1 1 5D21AC3E
-P 2900 2400
-F 0 "Q1" V 3200 2400 50  0000 C CNN
-F 1 " IRFML8244" V 3300 2400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3100 2325 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfml8244pbf.pdf?fileId=5546d462533600a40153562817c91fc0" H 2900 2400 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFML8244TRPBF/IRFML8244TRPBFCT-ND/2538166" V 2900 2400 50  0001 C CNN "Digikey"
-	1    2900 2400
+P 2900 2300
+F 0 "Q1" V 3200 2300 50  0000 C CNN
+F 1 " IRFML8244" V 3300 2300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3100 2225 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irfml8244pbf.pdf?fileId=5546d462533600a40153562817c91fc0" H 2900 2300 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFML8244TRPBF/IRFML8244TRPBFCT-ND/2538166" V 2900 2300 50  0001 C CNN "Digikey"
+	1    2900 2300
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -779,10 +766,6 @@ F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-179
 	1    1800 1700
 	1    0    0    -1  
 $EndComp
-Text Notes 1400 3100 0    50   ~ 0
-+
-Text Notes 1400 3000 0    50   ~ 0
--
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5D22562D
@@ -799,58 +782,25 @@ Wire Wire Line
 Wire Wire Line
 	2700 1800 2900 1800
 Wire Wire Line
-	2900 1800 2900 2200
+	2900 1800 2900 2100
 Connection ~ 2900 1800
 $Comp
 L power:GND #PWR02
 U 1 1 5D2433EA
-P 3300 2500
-F 0 "#PWR02" H 3300 2250 50  0001 C CNN
-F 1 "GND" H 3350 2300 50  0000 C CNN
-F 2 "" H 3300 2500 50  0001 C CNN
-F 3 "" H 3300 2500 50  0001 C CNN
-	1    3300 2500
+P 3300 2400
+F 0 "#PWR02" H 3300 2150 50  0001 C CNN
+F 1 "GND" H 3350 2200 50  0000 C CNN
+F 2 "" H 3300 2400 50  0001 C CNN
+F 3 "" H 3300 2400 50  0001 C CNN
+	1    3300 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2500 3100 2500
+	3300 2400 3100 2400
 Text Notes 1900 800  0    100  ~ 20
 POWER
 Wire Notes Line
-	500  5600 3800 5600
-$Comp
-L power:GND #PWR015
-U 1 1 5D256F5D
-P 2400 4900
-F 0 "#PWR015" H 2400 4650 50  0001 C CNN
-F 1 "GND" H 2450 4700 50  0000 C CNN
-F 2 "" H 2400 4900 50  0001 C CNN
-F 3 "" H 2400 4900 50  0001 C CNN
-	1    2400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5D2572AE
-P 1200 4600
-F 0 "C3" H 1300 4650 50  0000 L CNN
-F 1 "10uF" H 1300 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 4600 50  0001 C CNN
-F 3 "~" H 1200 4600 50  0001 C CNN
-	1    1200 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5D257AE2
-P 1700 4600
-F 0 "C4" H 1800 4650 50  0000 L CNN
-F 1 "1uF" H 1800 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1700 4600 50  0001 C CNN
-F 3 "~" H 1700 4600 50  0001 C CNN
-	1    1700 4600
-	1    0    0    -1  
-$EndComp
+	500  3600 3800 3600
 $Comp
 L Device:C_Small C2
 U 1 1 5D264EE9
@@ -980,12 +930,6 @@ Wire Wire Line
 	5700 3800 6400 3800
 Wire Wire Line
 	6400 3800 6400 5400
-Wire Wire Line
-	1100 3100 1500 3100
-Wire Wire Line
-	1100 1700 1100 3100
-Wire Wire Line
-	1500 3000 1300 3000
 Text Notes 2100 2100 0    50   ~ 0
 NEED FOOTPRINT
 Text Notes 7500 5800 0    50   ~ 0
@@ -1046,17 +990,15 @@ Text Notes 1600 1400 0    50   ~ 0
 1206 PTC\n50mA HOLD
 Text Notes 9200 4400 0    50   ~ 0
 BLUE\nWURTH 150120BS75000 
-Text Label 1400 1700 0    50   ~ 0
-BAT+
-Text Label 1400 2500 0    50   ~ 0
+Text Label 1000 2400 0    50   ~ 0
 BAT-
 Text Notes 2200 7000 0    50   ~ 0
 EXPOSED\nCIRC PAD
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H2
 U 1 1 5D36D0D1
 P 1700 6900
-F 0 "H4" H 1800 7000 50  0000 L CNN
+F 0 "H2" H 1800 7000 50  0000 L CNN
 F 1 "CREST" H 1800 6900 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 1800 6850 50  0001 L CNN
 F 3 "~" H 1700 6900 50  0001 C CNN
@@ -1065,10 +1007,10 @@ F 3 "~" H 1700 6900 50  0001 C CNN
 $EndComp
 NoConn ~ 1700 7000
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad H1
 U 1 1 5D373C5F
 P 1700 6500
-F 0 "H3" H 1800 6600 50  0000 L CNN
+F 0 "H1" H 1800 6600 50  0000 L CNN
 F 1 "KEYHOLE" H 1800 6500 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1700 6500 50  0001 C CNN
 F 3 "~" H 1700 6500 50  0001 C CNN
@@ -1085,10 +1027,7 @@ Wire Notes Line
 Text Notes 2200 7200 0    50   ~ 0
 MAKE FOOTPRINTS
 Wire Wire Line
-	1100 1700 1300 1700
-Wire Wire Line
 	1300 1900 1300 1700
-Connection ~ 1300 1700
 Wire Wire Line
 	1300 1700 1700 1700
 Text Label 6000 3400 0    50   ~ 0
@@ -1272,63 +1211,8 @@ Text Notes 5200 7100 0    50   ~ 0
 0805\n1206\n1206\nSOT-23\nSOT-89
 Text Notes 2600 3100 0    50   ~ 0
 PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
-$Comp
-L Device:Battery BT1
-U 1 1 5D3752CC
-P 1300 2100
-F 0 "BT1" H 1450 2150 50  0000 L CNN
-F 1 "3024" H 1450 2050 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1300 2160 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p3.pdf" V 1300 2160 50  0001 C CNN
-	1    1300 2100
-	1    0    0    -1  
-$EndComp
-Text Notes 1500 2300 0    50   ~ 0
-2x CR2032
-$Comp
-L Device:C_Small C5
-U 1 1 5D3A9FC2
-P 3000 4600
-F 0 "C5" H 3100 4650 50  0000 L CNN
-F 1 "1uF" H 3100 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 4600 50  0001 C CNN
-F 3 "~" H 3000 4600 50  0001 C CNN
-	1    3000 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 4300 1200 4400
-Wire Wire Line
-	1200 4700 1200 4800
-Wire Wire Line
-	1200 4800 1700 4800
-Wire Wire Line
-	2400 4800 2400 4900
-Connection ~ 2400 4800
-Wire Wire Line
-	1700 4700 1700 4800
-Connection ~ 1700 4800
-Wire Wire Line
-	1700 4800 2400 4800
-Wire Wire Line
-	1700 4500 1700 4400
-Wire Wire Line
-	1700 4400 1200 4400
-Connection ~ 1200 4400
-Wire Wire Line
-	1200 4400 1200 4500
-Connection ~ 1700 4400
-Wire Wire Line
-	3000 4400 3000 4300
-Wire Wire Line
-	3000 4500 3000 4400
-Connection ~ 3000 4400
-Wire Wire Line
-	3000 4700 3000 4800
-Wire Wire Line
-	3000 4800 2400 4800
-Text Notes 1900 3900 0    50   ~ 10
-DECOUPLING CAPS\nAND REGULATOR
+Text Notes 1600 2300 0    50   ~ 0
+\n1x CR2032
 Text Notes 2000 1100 0    50   ~ 10
 INPUT
 Text Label 8100 3300 0    50   ~ 0
@@ -1349,46 +1233,15 @@ Text Label 8100 4000 0    50   ~ 0
 LED8
 Wire Wire Line
 	2900 1700 2900 1800
-Text Notes 1300 5400 0    50   ~ 0
-Needed because of ATtiny max voltage
 $Comp
-L power:+BATT #PWR01
-U 1 1 5D397CC5
+L power:VDD #PWR01
+U 1 1 5D3A5C72
 P 2900 1700
 F 0 "#PWR01" H 2900 1550 50  0001 C CNN
-F 1 "+BATT" H 2950 1900 50  0000 C CNN
+F 1 "VDD" H 2950 1900 50  0000 C CNN
 F 2 "" H 2900 1700 50  0001 C CNN
 F 3 "" H 2900 1700 50  0001 C CNN
 	1    2900 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:AP2204RB-5.0 U3
-U 1 1 5D398B38
-P 2400 4400
-F 0 "U3" H 2400 4700 50  0000 C CNN
-F 1 "AP7370-50" H 2400 4600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 2400 4625 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP7370.pdf" H 2400 4400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP7370-50Y-13/AP7370-50Y-13DICT-ND/10235833" H 2400 4400 50  0001 C CNN "Digikey"
-	1    2400 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 4700 2400 4800
-Wire Wire Line
-	1700 4400 2100 4400
-Wire Wire Line
-	2700 4400 3000 4400
-$Comp
-L power:VDD #PWR011
-U 1 1 5D3A5C72
-P 3000 4300
-F 0 "#PWR011" H 3000 4150 50  0001 C CNN
-F 1 "VDD" H 3050 4500 50  0000 C CNN
-F 2 "" H 3000 4300 50  0001 C CNN
-F 3 "" H 3000 4300 50  0001 C CNN
-	1    3000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1434,10 +1287,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 5300 6800 5400
 $Comp
-L power:VDD #PWR016
+L power:VDD #PWR013
 U 1 1 5D3AD189
 P 6800 5000
-F 0 "#PWR016" H 6800 4850 50  0001 C CNN
+F 0 "#PWR013" H 6800 4850 50  0001 C CNN
 F 1 "VDD" H 6850 5200 50  0000 C CNN
 F 2 "" H 6800 5000 50  0001 C CNN
 F 3 "" H 6800 5000 50  0001 C CNN
@@ -1448,17 +1301,6 @@ Wire Wire Line
 	6800 5000 6800 5100
 Wire Wire Line
 	6800 5700 6800 5800
-$Comp
-L power:+BATT #PWR010
-U 1 1 5D3BCDFD
-P 1200 4300
-F 0 "#PWR010" H 1200 4150 50  0001 C CNN
-F 1 "+BATT" H 1250 4500 50  0000 C CNN
-F 2 "" H 1200 4300 50  0001 C CNN
-F 3 "" H 1200 4300 50  0001 C CNN
-	1    1200 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R10
 U 1 1 5D40079B
@@ -1474,10 +1316,10 @@ Wire Wire Line
 	6900 4000 6900 3900
 Connection ~ 6900 3900
 $Comp
-L power:GND #PWR013
+L power:GND #PWR011
 U 1 1 5D403D8B
 P 6900 4400
-F 0 "#PWR013" H 6900 4150 50  0001 C CNN
+F 0 "#PWR011" H 6900 4150 50  0001 C CNN
 F 1 "GND" H 6950 4200 50  0000 C CNN
 F 2 "" H 6900 4400 50  0001 C CNN
 F 3 "" H 6900 4400 50  0001 C CNN
@@ -1489,10 +1331,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 4400 5100 4300
 $Comp
-L power:VDD #PWR0101
+L power:VDD #PWR08
 U 1 1 5D674146
 P 7100 3200
-F 0 "#PWR0101" H 7100 3050 50  0001 C CNN
+F 0 "#PWR08" H 7100 3050 50  0001 C CNN
 F 1 "VDD" H 7150 3400 50  0000 C CNN
 F 2 "" H 7100 3200 50  0001 C CNN
 F 3 "" H 7100 3200 50  0001 C CNN
@@ -1500,10 +1342,23 @@ F 3 "" H 7100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2300 1300 2500
+	2700 2400 1300 2400
 Wire Wire Line
-	1300 3000 1300 2500
-Connection ~ 1300 2500
+	1300 2200 1300 2400
 Wire Wire Line
-	2700 2500 1300 2500
+	1000 2400 1300 2400
+Connection ~ 1300 2400
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D4B10F8
+P 1300 2100
+F 0 "BT1" H 1450 2200 50  0000 L CNN
+F 1 "3034" H 1450 2100 50  0000 L CNN
+F 2 "ruddock-crest-blinky:BatteryHolder_Keystone_3034_Wide" V 1300 2160 50  0001 C CNN
+F 3 "~" V 1300 2160 50  0001 C CNN
+	1    1300 2100
+	1    0    0    -1  
+$EndComp
+Text Label 1400 1700 0    50   ~ 0
+BAT+
 $EndSCHEMATC
