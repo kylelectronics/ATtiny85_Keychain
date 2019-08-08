@@ -766,17 +766,6 @@ F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-179
 	1    1800 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_SPDT SW1
-U 1 1 5D22562D
-P 2500 1800
-F 0 "SW1" H 2500 2100 50  0000 C CNN
-F 1 "JS102011JCQN" H 2500 2000 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 2500 1800 50  0001 C CNN
-F 3 "~" H 2500 1800 50  0001 C CNN
-	1    2500 1800
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 1700 2300 1700
 Wire Wire Line
@@ -1359,6 +1348,35 @@ F 3 "~" V 1300 2160 50  0001 C CNN
 	1    1300 2100
 	1    0    0    -1  
 $EndComp
-Text Label 1400 1700 0    50   ~ 0
+Text Label 1000 1700 0    50   ~ 0
 BAT+
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5D4BE52D
+P 2500 1800
+F 0 "SW1" H 2500 2100 50  0000 C CNN
+F 1 "JS202011JCQN" H 2500 2000 50  0000 C CNN
+F 2 "ruddock-crest-blinky:SW_SPDT_CK-JS202011JCQN" H 2500 1800 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2500 1800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" H 2500 1800 50  0001 C CNN "Digikey"
+	1    2500 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 5D4BFB80
+P 1500 3100
+F 0 "SW1" H 1500 3400 50  0000 C CNN
+F 1 "JS202011JCQN" H 1500 3300 50  0000 C CNN
+F 2 "ruddock-crest-blinky:SW_SPDT_CK-JS202011JCQN" H 1500 3100 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 1500 3100 50  0001 C CNN
+	2    1500 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 3100
+NoConn ~ 1700 3200
+NoConn ~ 1700 3000
+Wire Wire Line
+	1000 1700 1300 1700
+Connection ~ 1300 1700
 $EndSCHEMATC
