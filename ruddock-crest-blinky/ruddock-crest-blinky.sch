@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ruddock Crest Blinky"
-Date "2019-08-06"
+Date "2019-08-08"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "Virtutis mammilas exsugimus"
@@ -791,17 +791,6 @@ POWER
 Wire Notes Line
 	500  3600 3800 3600
 $Comp
-L Device:C_Small C2
-U 1 1 5D264EE9
-P 7900 2600
-F 0 "C2" V 7750 2550 50  0000 L CNN
-F 1 "0.1uF" V 8050 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 2600 50  0001 C CNN
-F 3 "~" H 7900 2600 50  0001 C CNN
-	1    7900 2600
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 5D265718
 P 4500 2600
@@ -810,17 +799,6 @@ F 1 "GND" H 4550 2400 50  0000 C CNN
 F 2 "" H 4500 2600 50  0001 C CNN
 F 3 "" H 4500 2600 50  0001 C CNN
 	1    4500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5D2659A4
-P 8200 2600
-F 0 "#PWR06" H 8200 2350 50  0001 C CNN
-F 1 "GND" H 8250 2400 50  0000 C CNN
-F 2 "" H 8200 2600 50  0001 C CNN
-F 3 "" H 8200 2600 50  0001 C CNN
-	1    8200 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -898,15 +876,6 @@ Text Notes 5700 3700 0    50   ~ 0
 MOSI
 Wire Wire Line
 	7200 3600 7100 3600
-Wire Wire Line
-	7600 2500 7600 2600
-Wire Wire Line
-	8200 2600 8000 2600
-Wire Wire Line
-	7800 2600 7600 2600
-Connection ~ 7600 2600
-Wire Wire Line
-	7600 2600 7600 3100
 Wire Wire Line
 	6700 3300 6700 3700
 Wire Wire Line
@@ -1379,4 +1348,6 @@ NoConn ~ 1700 3000
 Wire Wire Line
 	1000 1700 1300 1700
 Connection ~ 1300 1700
+Wire Wire Line
+	7600 2500 7600 3100
 $EndSCHEMATC
