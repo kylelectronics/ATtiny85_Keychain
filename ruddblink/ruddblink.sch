@@ -636,8 +636,9 @@ U 1 1 5D1F3B7C
 P 7850 5400
 F 0 "SW2" H 7850 5700 50  0000 C CNN
 F 1 "PTS526 SK15 SMTR2 LFS " H 7850 5600 50  0000 C CNN
-F 2 "ruddock-crest-blinky:SW_SPST_PTS526" H 7850 5600 50  0001 C CNN
-F 3 "~" H 7850 5600 50  0001 C CNN
+F 2 "ruddblink:SW_Push_PTS526" H 7850 5600 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/2780/pts526.pdf" H 7850 5600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/c-k/PTS526-SMG15J-SMTR2-LFS/CKN12224-1-ND/10056637" H 7850 5400 50  0001 C CNN "Digikey"
 	1    7850 5400
 	1    0    0    -1  
 $EndComp
