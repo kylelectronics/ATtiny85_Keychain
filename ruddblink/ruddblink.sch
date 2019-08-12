@@ -1,16 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:ruddock-crest-blinky-cache
+LIBS:ruddblink-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ruddock Crest Blinky"
-Date "2019-08-08"
+Title "RuddBlink"
+Date "2019-08-11"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "Virtutis mammilas exsugimus"
-Comment2 "B.S. EE, Ruddock, Class of 2020"
+Comment2 "B.S. EE, Ruddock House, Class of 2020"
 Comment3 "Ray Sun"
 Comment4 ""
 $EndDescr
@@ -754,25 +754,11 @@ F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFML8244TR
 	1    2900 2300
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:Fuse_Small F1
-U 1 1 5D22A8C9
-P 1800 1700
-F 0 "F1" H 1800 1900 50  0000 C CNN
-F 1 " 0ZCJ0005FF2E " H 1800 1800 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1800 1700 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" H 1800 1700 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-1793-1-ND/4156220" H 1800 1700 50  0001 C CNN "Digikey"
-	1    1800 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 1700 2300 1700
 Wire Wire Line
-	2700 1800 2900 1800
-Wire Wire Line
-	2900 1800 2900 2100
-Connection ~ 2900 1800
+	2700 1600 2900 1600
+Connection ~ 2900 1600
 $Comp
 L power:GND #PWR02
 U 1 1 5D2433EA
@@ -786,10 +772,8 @@ F 3 "" H 3300 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 2400 3100 2400
-Text Notes 1900 800  0    100  ~ 20
+Text Notes 1800 900  0    100  ~ 20
 POWER
-Wire Notes Line
-	500  3600 3800 3600
 $Comp
 L power:GND #PWR05
 U 1 1 5D265718
@@ -840,9 +824,7 @@ Wire Wire Line
 	6300 3900 6300 3200
 Wire Wire Line
 	6300 2900 6300 3000
-Text Notes 7700 4400 0    50   ~ 0
-SOIC-14
-NoConn ~ 2300 1900
+NoConn ~ 2700 1800
 Wire Wire Line
 	6900 3900 7200 3900
 NoConn ~ 8000 4200
@@ -888,10 +870,6 @@ Wire Wire Line
 	5700 3800 6400 3800
 Wire Wire Line
 	6400 3800 6400 5400
-Text Notes 2100 2100 0    50   ~ 0
-NEED FOOTPRINT
-Text Notes 7500 5800 0    50   ~ 0
-MAKE FOOTPRINT
 $Comp
 L Device:R_Small_US R1
 U 1 1 5D344CB7
@@ -944,14 +922,12 @@ F 3 "~" H 9400 3600 50  0001 C CNN
 	1    9400 3600
 	0    -1   -1   0   
 $EndComp
-Text Notes 1600 1400 0    50   ~ 0
-1206 PTC\n50mA HOLD
 Text Notes 9200 4400 0    50   ~ 0
 BLUE\nWURTH 150120BS75000 
 Text Label 1000 2400 0    50   ~ 0
 BAT-
-Text Notes 2200 7000 0    50   ~ 0
-EXPOSED\nCIRC PAD
+Text Notes 2200 6900 0    50   ~ 0
+CIRC PAD
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5D36D0D1
@@ -970,7 +946,7 @@ U 1 1 5D373C5F
 P 1700 6500
 F 0 "H1" H 1800 6600 50  0000 L CNN
 F 1 "KEYHOLE" H 1800 6500 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 1700 6500 50  0001 C CNN
+F 2 "ruddblink:MountingHole_Keyring" H 1700 6500 50  0001 C CNN
 F 3 "~" H 1700 6500 50  0001 C CNN
 	1    1700 6500
 	1    0    0    -1  
@@ -978,12 +954,8 @@ $EndComp
 Text Notes 2200 6500 0    50   ~ 0
 MOUNTING
 NoConn ~ 1700 6600
-Text Notes 1700 6100 0    100  ~ 20
+Text Notes 1600 6100 0    100  ~ 20
 MECHANICAL
-Wire Notes Line
-	3800 500  3800 7800
-Text Notes 2200 7200 0    50   ~ 0
-MAKE FOOTPRINTS
 Wire Wire Line
 	1300 1900 1300 1700
 Wire Wire Line
@@ -1000,17 +972,6 @@ Text Label 6000 3800 0    50   ~ 0
 USER
 Text Label 6000 3900 0    50   ~ 0
 RESET
-$Comp
-L 74xx:74HC595 U2
-U 1 1 5D1F6EB5
-P 7600 3700
-F 0 "U2" H 7950 4500 50  0000 C CNN
-F 1 "74HC595" H 7950 4400 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7600 3700 50  0001 C CNN
-	1    7600 3700
-	1    0    0    -1  
-$EndComp
 Text Notes 8400 4300 0    50   ~ 0
 COMPUTE R\nFOR DESIRED\nLED CURRENT
 $Comp
@@ -1164,15 +1125,13 @@ Connection ~ 10200 3700
 Text Notes 4600 6600 0    50   ~ 10
 PACKAGES
 Text Notes 4600 7100 0    50   ~ 0
-RES, CAP\nLED\nFUSE\nMOSFET\nLDO
+RES, CAP\nLED\nFUSE\nMOSFET\nIC
 Text Notes 5200 7100 0    50   ~ 0
-0805\n1206\n1206\nSOT-23\nSOT-89
+0805\n1206\n1206\nSOT-23\nSOIC
 Text Notes 2600 3100 0    50   ~ 0
 PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
-Text Notes 1600 2300 0    50   ~ 0
+Text Notes 1450 2250 0    50   ~ 0
 \n1x CR2032
-Text Notes 2000 1100 0    50   ~ 10
-INPUT
 Text Label 8100 3300 0    50   ~ 0
 LED1
 Text Label 8100 3400 0    50   ~ 0
@@ -1190,16 +1149,16 @@ LED7
 Text Label 8100 4000 0    50   ~ 0
 LED8
 Wire Wire Line
-	2900 1700 2900 1800
+	2900 1500 2900 1600
 $Comp
 L power:VDD #PWR01
 U 1 1 5D3A5C72
-P 2900 1700
-F 0 "#PWR01" H 2900 1550 50  0001 C CNN
-F 1 "VDD" H 2950 1900 50  0000 C CNN
-F 2 "" H 2900 1700 50  0001 C CNN
-F 3 "" H 2900 1700 50  0001 C CNN
-	1    2900 1700
+P 2900 1500
+F 0 "#PWR01" H 2900 1350 50  0001 C CNN
+F 1 "VDD" H 2950 1700 50  0000 C CNN
+F 2 "" H 2900 1500 50  0001 C CNN
+F 3 "" H 2900 1500 50  0001 C CNN
+	1    2900 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1322,14 +1281,14 @@ BAT+
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 5D4BE52D
-P 2500 1800
-F 0 "SW1" H 2500 2100 50  0000 C CNN
-F 1 "JS202011JCQN" H 2500 2000 50  0000 C CNN
-F 2 "ruddock-crest-blinky:SW_SPDT_CK-JS202011JCQN" H 2500 1800 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2500 1800 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" H 2500 1800 50  0001 C CNN "Digikey"
-	1    2500 1800
-	-1   0    0    -1  
+P 2500 1700
+F 0 "SW1" H 2500 2000 50  0000 C CNN
+F 1 "JS202011JCQN" H 2500 1900 50  0000 C CNN
+F 2 "ruddock-crest-blinky:SW_SPDT_CK-JS202011JCQN" H 2500 1700 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2500 1700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/c-k/JS202011JCQN/CKN10723CT-ND/6137637" H 2500 1700 50  0001 C CNN "Digikey"
+	1    2500 1700
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW1
@@ -1350,4 +1309,31 @@ Wire Wire Line
 Connection ~ 1300 1700
 Wire Wire Line
 	7600 2500 7600 3100
+$Comp
+L Device:Fuse_Small F1
+U 1 1 5D22A8C9
+P 1800 1700
+F 0 "F1" H 1800 1900 50  0000 C CNN
+F 1 " 0ZCJ0005FF2E " H 1800 1800 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1800 1700 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCJ%20Nov2016.pdf" H 1800 1700 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0005FF2E/507-1793-1-ND/4156220" H 1800 1700 50  0001 C CNN "Digikey"
+	1    1800 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 1600 1400 0    50   ~ 0
+1206 PTC\n50mA HOLD
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5D1F6EB5
+P 7600 3700
+F 0 "U2" H 7950 4500 50  0000 C CNN
+F 1 "74HC595" H 7950 4400 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1600 2900 2100
 $EndSCHEMATC
