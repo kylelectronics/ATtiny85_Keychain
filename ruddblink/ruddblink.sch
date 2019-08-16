@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RuddBlink"
-Date "2019-08-14"
+Date "2019-08-15"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "Virtutis mammilas exsugimus"
@@ -1258,7 +1258,7 @@ U 1 1 5D4B10F8
 P 1300 2100
 F 0 "BT1" H 1450 2200 50  0000 L CNN
 F 1 "3034" H 1450 2100 50  0000 L CNN
-F 2 "ruddock-crest-blinky:BatteryHolder_Keystone_3034_Wide" V 1300 2160 50  0001 C CNN
+F 2 "ruddblink:BatteryHolder_Keystone_3034_Wide" V 1300 2160 50  0001 C CNN
 F 3 "~" V 1300 2160 50  0001 C CNN
 	1    1300 2100
 	1    0    0    -1  
