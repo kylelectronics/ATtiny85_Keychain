@@ -683,7 +683,7 @@ U 1 1 5D1F89BA
 P 9100 3300
 F 0 "D1" H 9100 3150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9100 3150 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9100 3300 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9100 3300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9100 3300 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9100 3300 50  0001 C CNN "Digikey"
 	1    9100 3300
@@ -695,7 +695,7 @@ U 1 1 5D1F90CE
 P 9400 3400
 F 0 "D2" H 9400 3150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9400 3150 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9400 3400 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9400 3400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9400 3400 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9400 3400 50  0001 C CNN "Digikey"
 	1    9400 3400
@@ -707,7 +707,7 @@ U 1 1 5D1F987A
 P 9700 3500
 F 0 "D3" H 9700 3150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9700 3150 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9700 3500 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9700 3500 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9700 3500 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9700 3500 50  0001 C CNN "Digikey"
 	1    9700 3500
@@ -719,14 +719,12 @@ U 1 1 5D1F9CAF
 P 10000 3600
 F 0 "D4" H 10000 3150 50  0000 C CNN
 F 1 " 150120BS75000 " H 10000 3150 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10000 3600 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 10000 3600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10000 3600 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10000 3600 50  0001 C CNN "Digikey"
 	1    10000 3600
 	-1   0    0    1   
 $EndComp
-Text Notes 7300 4800 0    50   ~ 0
-CHECK FOOTPRINTS
 Wire Wire Line
 	10200 3600 10100 3600
 Wire Wire Line
@@ -959,7 +957,7 @@ Text Label 6000 3800 0    50   ~ 0
 USER
 Text Label 6000 3900 0    50   ~ 0
 RESET
-Text Notes 8400 4300 0    50   ~ 0
+Text Notes 8400 4400 0    50   ~ 0
 COMPUTE R\nFOR DESIRED\nLED CURRENT
 $Comp
 L Device:R_Small_US R8
@@ -1047,7 +1045,7 @@ U 1 1 5D1FB03E
 P 10000 4000
 F 0 "D8" H 10000 4150 50  0000 C CNN
 F 1 " 150120BS75000 " H 10000 4250 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10000 4000 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 10000 4000 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 10000 4000 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 10000 4000 50  0001 C CNN "Digikey"
 	1    10000 4000
@@ -1059,7 +1057,7 @@ U 1 1 5D1FAB62
 P 9700 3900
 F 0 "D7" H 9700 4150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9700 4250 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9700 3900 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9700 3900 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9700 3900 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9700 3900 50  0001 C CNN "Digikey"
 	1    9700 3900
@@ -1071,7 +1069,7 @@ U 1 1 5D1FA68B
 P 9400 3800
 F 0 "D6" H 9400 4150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9400 4250 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9400 3800 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9400 3800 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9400 3800 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9400 3800 50  0001 C CNN "Digikey"
 	1    9400 3800
@@ -1083,7 +1081,7 @@ U 1 1 5D1FA165
 P 9100 3700
 F 0 "D5" H 9100 4150 50  0000 C CNN
 F 1 " 150120BS75000 " H 9100 4250 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9100 3700 50  0001 C CNN
+F 2 "ruddblink:LED_1206_Uniform_HandSolder" V 9100 3700 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/150120BS75000.pdf" V 9100 3700 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/150120BS75000/732-4989-1-ND/4489931" H 9100 3700 50  0001 C CNN "Digikey"
 	1    9100 3700
