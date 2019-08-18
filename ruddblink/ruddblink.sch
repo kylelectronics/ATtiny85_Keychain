@@ -1,18 +1,18 @@
 EESchema Schematic File Version 4
 LIBS:ruddblink-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "RuddBlink"
-Date "2019-08-15"
+Title "RuddBlink v0"
+Date "2019-08-18"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
-Comment1 "Virtutis mammilas exsugimus"
-Comment2 "California Institute of Technology"
-Comment3 "B.S. EE, Ruddock House, Class of 2020"
-Comment4 "Ray Sun"
+Comment1 "California Institute of Technology"
+Comment2 "B.S. EE, Ruddock House, Class of 2020"
+Comment3 "Ray Sun"
+Comment4 ""
 $EndDescr
 $Bitmap
 Pos 10940 6840
@@ -776,34 +776,34 @@ POWER
 $Comp
 L power:GND #PWR05
 U 1 1 5D265718
-P 4500 2600
-F 0 "#PWR05" H 4500 2350 50  0001 C CNN
-F 1 "GND" H 4550 2400 50  0000 C CNN
-F 2 "" H 4500 2600 50  0001 C CNN
-F 3 "" H 4500 2600 50  0001 C CNN
-	1    4500 2600
+P 4500 2800
+F 0 "#PWR05" H 4500 2550 50  0001 C CNN
+F 1 "GND" H 4550 2600 50  0000 C CNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 5D262315
-P 4800 2600
-F 0 "C1" V 4650 2550 50  0000 L CNN
-F 1 "0.1uF" V 4950 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 2600 50  0001 C CNN
-F 3 "~" H 4800 2600 50  0001 C CNN
-	1    4800 2600
+P 4800 2800
+F 0 "C1" V 4650 2750 50  0000 L CNN
+F 1 "0.1uF" V 4950 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 2800 50  0001 C CNN
+F 3 "~" H 4800 2800 50  0001 C CNN
+	1    4800 2800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5100 2500 5100 2600
+	5100 2700 5100 2800
 Wire Wire Line
-	4500 2600 4700 2600
+	4500 2800 4700 2800
 Wire Wire Line
-	4900 2600 5100 2600
-Connection ~ 5100 2600
+	4900 2800 5100 2800
+Connection ~ 5100 2800
 Wire Wire Line
-	5100 2600 5100 3100
+	5100 2800 5100 3100
 Text Notes 4900 2000 0    100  ~ 20
 MICU
 Text Notes 8400 2000 0    100  ~ 20
@@ -922,24 +922,24 @@ F 3 "~" H 9400 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 9200 4400 0    50   ~ 0
-BLUE\nWURTH 150120BS75000 
+DEFAULT BLUE\nWURTH 150120BS75000 
 Text Label 1000 2400 0    50   ~ 0
 BAT-
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5D373C5F
-P 1700 6500
-F 0 "H1" H 1800 6600 50  0000 L CNN
-F 1 "KEYHOLE" H 1800 6500 50  0000 L CNN
-F 2 "ruddblink:MountingHole_Keyring" H 1700 6500 50  0001 C CNN
-F 3 "~" H 1700 6500 50  0001 C CNN
-	1    1700 6500
+P 1700 7000
+F 0 "H1" H 1800 7100 50  0000 L CNN
+F 1 "KEYHOLE" H 1800 7000 50  0000 L CNN
+F 2 "ruddblink:MountingHole_Keyring" H 1700 7000 50  0001 C CNN
+F 3 "~" H 1700 7000 50  0001 C CNN
+	1    1700 7000
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 6500 0    50   ~ 0
+Text Notes 2200 7000 0    50   ~ 0
 MOUNTING
-NoConn ~ 1700 6600
-Text Notes 1600 6100 0    100  ~ 20
+NoConn ~ 1700 7100
+Text Notes 1600 6600 0    100  ~ 20
 MECHANICAL
 Wire Wire Line
 	1300 1900 1300 1700
@@ -1107,11 +1107,11 @@ Wire Wire Line
 	10200 3600 10200 3700
 Connection ~ 10200 3600
 Connection ~ 10200 3700
-Text Notes 4600 6600 0    50   ~ 10
+Text Notes 4600 6900 0    50   ~ 10
 PACKAGES
-Text Notes 4600 7100 0    50   ~ 0
+Text Notes 4600 7400 0    50   ~ 0
 RES, CAP\nLED\nFUSE\nMOSFET\nIC
-Text Notes 5200 7100 0    50   ~ 0
+Text Notes 5200 7400 0    50   ~ 0
 0805\n1206\n1206\nSOT-23\nSOIC
 Text Notes 2600 3100 0    50   ~ 0
 PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
@@ -1149,12 +1149,12 @@ $EndComp
 $Comp
 L power:VDD #PWR03
 U 1 1 5D3A5FDF
-P 5100 2500
-F 0 "#PWR03" H 5100 2350 50  0001 C CNN
-F 1 "VDD" H 5150 2700 50  0000 C CNN
-F 2 "" H 5100 2500 50  0001 C CNN
-F 3 "" H 5100 2500 50  0001 C CNN
-	1    5100 2500
+P 5100 2700
+F 0 "#PWR03" H 5100 2550 50  0001 C CNN
+F 1 "VDD" H 5150 2900 50  0000 C CNN
+F 2 "" H 5100 2700 50  0001 C CNN
+F 3 "" H 5100 2700 50  0001 C CNN
+	1    5100 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1171,12 +1171,12 @@ $EndComp
 $Comp
 L power:VDD #PWR04
 U 1 1 5D3A6BB5
-P 7600 2500
-F 0 "#PWR04" H 7600 2350 50  0001 C CNN
-F 1 "VDD" H 7650 2700 50  0000 C CNN
-F 2 "" H 7600 2500 50  0001 C CNN
-F 3 "" H 7600 2500 50  0001 C CNN
-	1    7600 2500
+P 7600 2700
+F 0 "#PWR04" H 7600 2550 50  0001 C CNN
+F 1 "VDD" H 7650 2900 50  0000 C CNN
+F 2 "" H 7600 2700 50  0001 C CNN
+F 3 "" H 7600 2700 50  0001 C CNN
+	1    7600 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1293,7 +1293,7 @@ Wire Wire Line
 	1000 1700 1300 1700
 Connection ~ 1300 1700
 Wire Wire Line
-	7600 2500 7600 3100
+	7600 2700 7600 3100
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5D22A8C9
@@ -1624,4 +1624,10 @@ Wire Wire Line
 	1700 4200 1700 4000
 Wire Wire Line
 	2400 4200 2400 4000
+Text Notes 8400 4800 0    50   ~ 0
+RED: 470\nYELLOW/GREEN: 220\nBLUE/WHITE: 100
+Text Notes 4600 6300 0    50   ~ 10
+NOTES
+Text Notes 4600 6600 0    50   ~ 0
+ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
 $EndSCHEMATC
