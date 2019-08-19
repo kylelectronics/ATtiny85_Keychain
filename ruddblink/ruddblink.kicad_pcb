@@ -2289,7 +2289,7 @@
   (gr_arc (start 152.019 90.17) (end 146.304 90.17) (angle -69.14554196) (layer Edge.Cuts) (width 0.1))
   (gr_circle (center 152.019 90.17) (end 151.765 90.17) (layer Dwgs.User) (width 0.15) (tstamp 5D56F637))
   (dimension 5.715 (width 0.15) (layer Dwgs.User)
-    (gr_text "0.2250 in" (at 135.3185 80.996) (layer Dwgs.User) (tstamp 5D5A3B96)
+    (gr_text "0.2250 in" (at 135.3185 80.996) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 138.176 84.836) (xy 138.176 81.709579)))
