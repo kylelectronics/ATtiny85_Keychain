@@ -10,6 +10,8 @@ This is a 1.6" by 1.9" PCB keychain featuring the Ruddock House crest on the top
 
 The keychain can be powered by a single CR2032 coin cell through the coin cell holder footprint on the back, or through an alternative power source soldered to those pads. A slide switch for power and a pushbutton to change the blink pattern are also on the back. Input polarity protection and fusing are provided.
 
+This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be found under `/ruddblink`, with documentation under `/ruddblink/doc`.
+
 ## Author
 - Ray Sun - Undergraduate, Electrical Engineering, Caltech, Class of 2020
 
