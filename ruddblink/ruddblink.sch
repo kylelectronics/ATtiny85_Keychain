@@ -816,10 +816,6 @@ NoConn ~ 2700 1800
 Wire Wire Line
 	6900 3900 7200 3900
 NoConn ~ 8000 4200
-Text Notes 7000 3900 0    50   ~ 0
-PWM
-Wire Wire Line
-	6800 3800 7200 3800
 Wire Wire Line
 	7000 3600 7000 3500
 Wire Wire Line
@@ -1080,8 +1076,6 @@ Text Notes 4600 7400 0    50   ~ 0
 RES, CAP\nLED\nFUSE\nMOSFET\nIC
 Text Notes 5200 7400 0    50   ~ 0
 0805\n1206\n1206\nSOT-23\nSOIC
-Text Notes 2600 3100 0    50   ~ 0
-PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
 Text Notes 1450 2250 0    50   ~ 0
 \n1x CR2032
 Text Label 8100 3300 0    50   ~ 0
@@ -1628,4 +1622,6 @@ Wire Wire Line
 	6800 3700 6800 3800
 Wire Wire Line
 	5700 3700 6800 3700
+Wire Wire Line
+	6800 3800 7200 3800
 $EndSCHEMATC
