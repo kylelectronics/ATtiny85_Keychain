@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RuddBlink v0"
-Date "2019-08-18"
+Date "2019-08-24"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "California Institute of Technology"
@@ -598,17 +598,6 @@ $EndComp
 Text Notes 4600 4900 0    50   ~ 0
 NO PROGRAMMING HEADER
 $Comp
-L MCU_Microchip_ATtiny:ATtiny85-20SU U1
-U 1 1 5D1F0F26
-P 5100 3700
-F 0 "U1" H 4550 3750 50  0000 R CNN
-F 1 "ATtiny85-20SU" H 4550 3650 50  0000 R CNN
-F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5100 3700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5100 3700 50  0001 C CNN
-	1    5100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C3
 U 1 1 5D1F1F43
 P 6800 5600
@@ -827,16 +816,6 @@ NoConn ~ 2700 1800
 Wire Wire Line
 	6900 3900 7200 3900
 NoConn ~ 8000 4200
-Text Notes 7000 3900 0    50   ~ 0
-PWM
-Wire Wire Line
-	6900 3400 6900 3900
-Text Notes 5700 3400 0    50   ~ 0
-OC0A
-Wire Wire Line
-	6800 3500 6800 3800
-Wire Wire Line
-	6800 3800 7200 3800
 Wire Wire Line
 	7000 3600 7000 3500
 Wire Wire Line
@@ -844,25 +823,13 @@ Wire Wire Line
 Wire Wire Line
 	5700 3400 6900 3400
 Wire Wire Line
-	5700 3500 6800 3500
-Wire Wire Line
-	5700 3600 7000 3600
+	5700 3500 6700 3500
 Wire Wire Line
 	5700 3900 6300 3900
 Text Notes 5700 3600 0    50   ~ 0
 SCK
-Text Notes 5700 3500 0    50   ~ 0
-MISO
-Text Notes 5700 3700 0    50   ~ 0
-MOSI
 Wire Wire Line
 	7200 3600 7100 3600
-Wire Wire Line
-	6700 3300 6700 3700
-Wire Wire Line
-	6700 3700 5700 3700
-Wire Wire Line
-	6700 3300 7200 3300
 Wire Wire Line
 	7100 3200 7100 3600
 Wire Wire Line
@@ -945,14 +912,10 @@ Wire Wire Line
 	1300 1900 1300 1700
 Wire Wire Line
 	1300 1700 1700 1700
-Text Label 6000 3400 0    50   ~ 0
-~OE
-Text Label 6000 3500 0    50   ~ 0
+Text Label 6000 3700 0    50   ~ 0
 RCLK
 Text Label 6000 3600 0    50   ~ 0
 SRCLK
-Text Label 6000 3700 0    50   ~ 0
-SER
 Text Label 6000 3800 0    50   ~ 0
 USER
 Text Label 6000 3900 0    50   ~ 0
@@ -1113,8 +1076,6 @@ Text Notes 4600 7400 0    50   ~ 0
 RES, CAP\nLED\nFUSE\nMOSFET\nIC
 Text Notes 5200 7400 0    50   ~ 0
 0805\n1206\n1206\nSOT-23\nSOIC
-Text Notes 2600 3100 0    50   ~ 0
-PROBABLY DON'T NEED\nTHIS BEEFY OF A MOSFET
 Text Notes 1450 2250 0    50   ~ 0
 \n1x CR2032
 Text Label 8100 3300 0    50   ~ 0
@@ -1630,4 +1591,37 @@ Text Notes 4600 6300 0    50   ~ 10
 NOTES
 Text Notes 4600 6600 0    50   ~ 0
 ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
+Wire Wire Line
+	5700 3600 7000 3600
+Wire Wire Line
+	6900 3400 6900 3900
+Wire Wire Line
+	6700 3300 7200 3300
+Text Label 6000 3500 0    50   ~ 0
+SER
+Text Notes 5700 3500 0    50   ~ 0
+DO
+Text Notes 5700 3400 0    50   ~ 0
+PWM
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 5D1F0F26
+P 5100 3700
+F 0 "U1" H 4550 3750 50  0000 R CNN
+F 1 "ATtiny85-20SU" H 4550 3650 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5100 3700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+Text Label 6000 3400 0    50   ~ 0
+~OE
+Wire Wire Line
+	6700 3300 6700 3500
+Wire Wire Line
+	6800 3700 6800 3800
+Wire Wire Line
+	5700 3700 6800 3700
+Wire Wire Line
+	6800 3800 7200 3800
 $EndSCHEMATC
