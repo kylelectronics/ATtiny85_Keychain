@@ -1,4 +1,4 @@
-# ruddblink [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+# ruddblink [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) ![madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
 ATtiny85-based illuminated PCB keychain featuring the Ruddock House crest
 
 ![ruddblink](/img/ruddblink.png)
@@ -29,4 +29,4 @@ This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be foun
 - Ray Sun - Undergraduate, Electrical Engineering, Caltech, Class of 2020
 
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This schematic and PCB design is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Unless otherwise noted, this schematic and PCB design, with associated symbol and footprint files, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
