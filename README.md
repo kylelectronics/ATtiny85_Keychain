@@ -1,4 +1,6 @@
-# ruddblink ![release](https://img.shields.io/github/v/release/electronictoast/ruddblink?include_prereleases) ![license](https://img.shields.io/github/license/electronictoast/ruddblink) ![madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
+# ruddblink
+![release](https://img.shields.io/github/v/release/electronictoast/ruddblink?include_prereleases) ![license](https://img.shields.io/github/license/electronictoast/ruddblink) ![madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
+
 ATtiny85-based illuminated PCB keychain featuring the Ruddock House crest
 
 ![ruddblink](/img/ruddblink.png)
