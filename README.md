@@ -1,4 +1,4 @@
-# ruddblink
+# ruddblink [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 ATtiny85-based illuminated PCB keychain featuring the Ruddock House crest
 
 ![ruddblink](/img/ruddblink.png)
@@ -17,8 +17,11 @@ The keychain can be powered by a single CR2032 coin cell through the coin cell h
 - User pushbutton
 - MOSFET polarity protection
 - PTC fuse
+- Aesthetics
 
 ## Notes
+
+No input voltage regulation is present. Do not apply more than 5.5 V, the maximum voltage for the ATtiny.
 
 This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be found under `/ruddblink`, with documentation under `/ruddblink/doc`.
 
