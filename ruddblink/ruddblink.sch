@@ -1587,8 +1587,6 @@ Wire Wire Line
 	2400 4200 2400 4000
 Text Notes 8400 4800 0    50   ~ 0
 RED: 470\nYELLOW/GREEN: 220\nBLUE/WHITE: 100
-Text Notes 4600 6300 0    50   ~ 10
-NOTES
 Wire Wire Line
 	5700 3600 7000 3600
 Wire Wire Line
@@ -1606,7 +1604,7 @@ L MCU_Microchip_ATtiny:ATtiny85-20SU U1
 U 1 1 5D1F0F26
 P 5100 3700
 F 0 "U1" H 4550 3750 50  0000 R CNN
-F 1 "ATtiny85-20SU" H 4550 3650 50  0000 R CNN
+F 1 "ATtiny85V-10SU" H 4550 3650 50  0000 R CNN
 F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5100 3700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5100 3700 50  0001 C CNN
 	1    5100 3700
@@ -1622,6 +1620,4 @@ Wire Wire Line
 	5700 3700 6800 3700
 Wire Wire Line
 	6800 3800 7200 3800
-Text Notes 4600 6600 0    50   ~ 0
-ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
 $EndSCHEMATC
