@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "RuddBlink v0"
-Date "2019-08-24"
+Title "RuddBlink v1"
+Date "2019-09-16"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "California Institute of Technology"
@@ -1589,8 +1589,6 @@ Text Notes 8400 4800 0    50   ~ 0
 RED: 470\nYELLOW/GREEN: 220\nBLUE/WHITE: 100
 Text Notes 4600 6300 0    50   ~ 10
 NOTES
-Text Notes 4600 6600 0    50   ~ 0
-ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
 Wire Wire Line
 	5700 3600 7000 3600
 Wire Wire Line
@@ -1624,4 +1622,6 @@ Wire Wire Line
 	5700 3700 6800 3700
 Wire Wire Line
 	6800 3800 7200 3800
+Text Notes 4600 6600 0    50   ~ 0
+ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
 $EndSCHEMATC

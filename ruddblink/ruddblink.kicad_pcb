@@ -11,8 +11,8 @@
 
   (page A)
   (title_block
-    (title "RuddBlink v0")
-    (date 2019-08-25)
+    (title "RuddBlink v1")
+    (date 2019-09-16)
     (rev A)
     (company "Ruddock House Electrical Engineering")
     (comment 1 "California Institute of Technology")
@@ -2354,7 +2354,7 @@
   (gr_text NC (at 126.365 122.174) (layer B.SilkS) (tstamp 5D56EE5E)
     (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
   )
-  (gr_text v0 (at 136.99744 112.8903) (layer B.SilkS) (tstamp 5D56EE52)
+  (gr_text v1 (at 136.99744 112.8903) (layer B.SilkS) (tstamp 5D56EE52)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify mirror))
   )
   (gr_text RuddBlink (at 143.637 112.649) (layer B.SilkS) (tstamp 5D62136F)
