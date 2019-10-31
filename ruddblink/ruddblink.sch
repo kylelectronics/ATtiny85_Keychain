@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "RuddBlink v0"
-Date "2019-08-24"
+Title "RuddBlink v1"
+Date "2019-09-16"
 Rev "A"
 Comp "Ruddock House Electrical Engineering"
 Comment1 "California Institute of Technology"
@@ -598,10 +598,10 @@ $EndComp
 Text Notes 4600 4900 0    50   ~ 0
 NO PROGRAMMING HEADER
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 5D1F1F43
 P 6800 5600
-F 0 "C3" H 6900 5650 50  0000 L CNN
+F 0 "C2" H 6900 5650 50  0000 L CNN
 F 1 "0.1uF" H 6900 5550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5600 50  0001 C CNN
 F 3 "~" H 6800 5600 50  0001 C CNN
@@ -1587,10 +1587,6 @@ Wire Wire Line
 	2400 4200 2400 4000
 Text Notes 8400 4800 0    50   ~ 0
 RED: 470\nYELLOW/GREEN: 220\nBLUE/WHITE: 100
-Text Notes 4600 6300 0    50   ~ 10
-NOTES
-Text Notes 4600 6600 0    50   ~ 0
-ATTINY85-20SU USED FOR PROTOTYPE\nATTINY85V-10SU TO REPLACE
 Wire Wire Line
 	5700 3600 7000 3600
 Wire Wire Line
@@ -1608,7 +1604,7 @@ L MCU_Microchip_ATtiny:ATtiny85-20SU U1
 U 1 1 5D1F0F26
 P 5100 3700
 F 0 "U1" H 4550 3750 50  0000 R CNN
-F 1 "ATtiny85-20SU" H 4550 3650 50  0000 R CNN
+F 1 "ATtiny85V-10SU" H 4550 3650 50  0000 R CNN
 F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5100 3700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5100 3700 50  0001 C CNN
 	1    5100 3700
