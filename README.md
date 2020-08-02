@@ -28,7 +28,7 @@ This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be foun
 
 ## Author
 - Ray Sun - Undergraduate, Electrical Engineering, Caltech, Class of 2020
-- Kyle Piper - Undergraduate, Mechanical Engineering, Caltech, Matriculated 2019
+- Kyle Piper - Undergraduate, Mechanical Engineering, Caltech, Class of whenever covid lets me take the classes I need, matriculated 2019
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Unless otherwise noted, this schematic and PCB design, with associated symbol and footprint files, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. The Ruddock House crest is copyright of Ruddock House and used with permission.
