@@ -1,4 +1,4 @@
-# ruddblink
+# Lighted Keychain
 [madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
 
 ATtiny85-based illuminated PCB keychain featuring an organization symbol.
