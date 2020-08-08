@@ -5,7 +5,7 @@ ATtiny85-based illuminated PCB keychain featuring an organization symbol.
 ![keychain](/img/keychain-sparkfun.png)
 
 ## Description
-Originally developed for Ruddock House of Caltech, this repo contains modified files for Sparkfun Electronics
+Originally developed for Ruddock House of Caltech, this repo contains modified files featuring the flame logo of Sparkfun Electronics.
 
 This is a 1.6" by 1.9" PCB keychain featuring the an organization crest on the top copper, based on [https://github.com/ElectronicToast/ruddblink]. A ring of 8 LEDs around the crest is controlled by an ATtiny85 through a 74HC595 shift register. This keychain is intended to be compact and aesthetic, but also simple to solder; all packages are SOIC and 0805 or larger.
 
@@ -24,7 +24,7 @@ The keychain is powered by a CR2032 coin cell through the coin cell holder footp
 
 No input voltage regulation is present. Do not apply more than 5.5 V, the maximum voltage for the ATtiny.
 
-This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be found under `/ruddblink`, with documentation under `/ruddblink/doc`.
+This PCB is designed with KiCad EDA 5.1.4. Schematic and board files may be found under `/attiny85-keychain`, with documentation under `/attiny85-keychain/doc`.
 
 ## Author
 - Kyle Piper - Undergraduate, Mechanical Engineering, Caltech Class of 2024
