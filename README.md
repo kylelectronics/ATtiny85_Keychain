@@ -2,7 +2,7 @@
 [madewith](https://img.shields.io/badge/made%20with-KiCad-blue)
 
 ATtiny85-based illuminated PCB keychain featuring an organization symbol.
-![ruddblink](/img/ruddblink.png)
+![keychain](/img/keychain-sparkfun.png)
 
 ## Description
 Originally developed for Ruddock House of Caltech, this repo contains modified files for Sparkfun Electronics
